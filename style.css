@@ -233,20 +233,20 @@ a.active {
   color: #828282;
 }
 
-/* .scroll-btn {
+.scroll-btn {
   position: absolute;
-  width: 171px;
+  width: 201px;
   height: 29px;
   left: 634px;
-  top: 690.95px;
-  font-family: "Gilroy", Arial, sans-serif;
+  top: 580px;
+  font-family: "Gilroy Light", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
   color: #828282;
-} */
+}
 
 .liberterra {
   width: 100%;
@@ -737,7 +737,7 @@ color: #2C2C2C;
   left: 460px;
   top: 1517.9px;
 }
-/*
+
 .brands-page-everblasing-text {
   position: absolute;
   width: 340px;
@@ -918,7 +918,7 @@ color: #2C2C2C;
 
 .brands-page-tact-editorial-rectangle {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 517.74px;
   left: 0px;
   top: 2373.25px;
@@ -937,7 +937,7 @@ color: #2C2C2C;
   position: absolute;
   width: 440px;
   height: 58px;
-  left: 959px;
+  left: 909px;
   padding-left: 35px;
   top: 2519.85px;
   font-family: "Gilroy Medium", Arial, sans-serif;
@@ -955,7 +955,7 @@ color: #2C2C2C;
   position: absolute;
   width: 380px;
   height: 66px;
-  left: 919px;
+  left: 869px;
   top: 2591.15px;
   font-family: "Gilroy Regular", Arial, sans-serif;
   font-style: normal;
@@ -970,7 +970,7 @@ color: #2C2C2C;
   position: absolute;
   width: 303px;
   height: 43px;
-  left: 1060.5px;
+  left: 1010px;
   top: 2698.66px;
   font-family: "Gilroy Regular", Arial, sans-serif;
   font-style: normal;
@@ -1040,7 +1040,7 @@ color: #2C2C2C;
 
 .brands-page-broque-rectangle {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 517.74px;
   left: 0px;
   top: 3408.99px;
@@ -1059,7 +1059,7 @@ color: #2C2C2C;
   position: absolute;
   width: 340px;
   height: 58px;
-  left: 959px;
+  left: 929px;
   padding-left: 180px;
   top: 3555.59px;
   font-family: "Gilroy Medium", Arial, sans-serif;
@@ -1077,7 +1077,7 @@ color: #2C2C2C;
   position: absolute;
   width: 380px;
   height: 88px;
-  left: 919px;
+  left: 889px;
   top: 3626.89px;
   font-family: "Gilroy Regular", Arial, sans-serif;
   font-style: normal;
@@ -1092,7 +1092,7 @@ color: #2C2C2C;
   position: absolute;
   width: 303px;
   height: 43px;
-  left: 1061.5px;
+  left: 1031.5px;
   top: 3733.66px;
   font-family: "Gilroy Regular", Arial, sans-serif;
   font-style: normal;
@@ -1144,7 +1144,7 @@ color: #2C2C2C;
   align-items: center;
   color: #2c2c2c;
 }
-
+/*
 .website-page-btn {
   position: absolute;
   width: 310px;
@@ -1399,16 +1399,16 @@ footer {
   left: 0px;
   top: 2235px;
 }
-/*
+
 .brands-footer {
   position: absolute;
   display: block;
-  width: 1440px;
+  width: 100%;
   height: 91px;
   left: 0px;
   top: 4050px;
 }
-
+/*
 .websiteFooter {
   position: absolute;
   display: block;
