@@ -6,11 +6,7 @@
   list-style: none;
 }
 
-@font-face {
-  font-family: "Gilroy";
-  src: url(images/fonts/Gilroy-Light.otf) format("opentype"),
-    url(images/fonts/Gilroy-Light.ttf) format("truetype");
-}
+
 @font-face {
   font-family: "Gilroy Bold";
   src: url(images/fonts/Gilroy-Bold.ttf) format("truetype"),
@@ -28,6 +24,14 @@
 @font-face {
   font-family: "Gilroy Medium";
   src: url(images/fonts/Gilroy-Medium.ttf) format("truetype");
+}
+@font-face{
+  font-family: "Gilroy Black";
+  src: url(images/fonts/Gilroy-Black.ttf) format("truetype");
+}
+@font-face{
+  font-family: "Nunito Semi Bold";
+  src: url(images/fonts/NunitoSans-SemiBold.ttf) format("truetype");
 }
 
 span {
@@ -48,7 +52,7 @@ nav {
 .logo {
   display: block;
   position: absolute;
-  padding: 0 50px;
+  padding: 0 80px;
   margin-top: 15px;
 }
 
@@ -67,7 +71,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -147,7 +151,7 @@ a.active {
 
 .container {
   max-width: 100%;
-  padding: 0 50px;
+  padding: 0 80px;
   margin: 30px 0;
 }
 
@@ -160,7 +164,7 @@ a.active {
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
-  line-height: 59px;
+  line-height: 49px;
   color: #bdbdbd;
 }
 
@@ -210,8 +214,8 @@ a.active {
   position: absolute;
   width: 250px;
   height: 339px;
-  left: 1001px;
-  top: 219px;
+  left: 1021px;
+  top: 200px;
 }
 
 .scrollBtn {
@@ -220,7 +224,7 @@ a.active {
   height: 29px;
   left: 620px;
   top: 610px;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy Light", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -262,7 +266,7 @@ a.active {
   position: absolute;
   width: 343px;
   height: 94px;
-  left: 886.5px;
+  left: 930.5px;
   top: 909px;
 }
 
@@ -270,7 +274,7 @@ a.active {
   position: absolute;
   width: 340px;
   height: 87px;
-  left: 889.5px;
+  left: 930.5px;
   top: 1027px;
   font-family: "Gilroy Regular", Arial, sans-serif;
   font-style: normal;
@@ -287,12 +291,12 @@ a.active {
   position: absolute;
   width: 231px;
   height: 66px;
-  left: 999px;
+  left: 1040px;
   top: 1139px;
   font-family: "Gilroy Regular", Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 	18px;
   line-height: 22px;
   display: flex;
   align-items: center;
@@ -305,7 +309,7 @@ a.active {
   position: absolute;
   width: 355px;
   height: 43px;
-  left: 870.5px;
+  left: 920.5px;
   top: 1240px;
   font-family: "Gilroy Regular", Arial, sans-serif;
   font-style: normal;
@@ -385,12 +389,11 @@ a.active {
   text-decoration-thickness: 0.15em;
 }
 
-.sophie-screen {
-  position: absolute;
-  
-  left: 619px;
-  top: 1496.69px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+.sophie-screen { 
+position: absolute;
+left: 620px;
+top: 1496.69px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
 }
 
 .hollerena-laptop {
@@ -407,8 +410,7 @@ a.active {
   right: 8.06%;
   top: 75.66%;
   bottom: 18.64%;
-  height: 164px;
-  width: 419px;
+ 
   left: 905px;
   top: 2176px;
   border-radius: 0px;
@@ -1445,7 +1447,7 @@ footer {
   right: 80.31%;
   top: 19.78%;
   bottom: 52.75%;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1471,7 +1473,7 @@ footer {
   height: 25px;
   left: 10px;
   top: 10px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1489,7 +1491,7 @@ footer {
   height: 25px;
   left: 121px;
   top: 0px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1507,7 +1509,7 @@ footer {
   height: 25px;
   left: 237px;
   top: 0px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1525,7 +1527,7 @@ footer {
   height: 25px;
   left: 347px;
   top: 0px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1539,17 +1541,17 @@ footer {
 
 .copyright-text {
   position: absolute;
-  left: 72.85%;
+  left: 75.85%;
   right: 3.33%;
   top: 51.65%;
   bottom: 20.88%;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
   color: #2c2c2c;
-}  */
+} 
 
 @media (max-width: 925px) {
   .logo {
