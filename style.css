@@ -589,7 +589,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
   text-align: right;
   color: #4f4f4f;
 }
-/*
+
 .case-study-page-mobile-phone {
   position: absolute;
   width: 562px;
@@ -603,7 +603,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
   position: absolute;
   width: 343px;
   height: 94px;
-  left: 986.5px;
+  left: 926.5px;
   top: 923.9px;
 }
 
@@ -611,7 +611,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
   position: absolute;
   width: 340px;
   height: 87px;
-  left: 989.5px;
+  left: 919.5px;
   top: 1041.9px;
   font-family: "Gilroy Regular", Arial, sans-serif;
   font-style: normal;
@@ -625,28 +625,27 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
 }
 
 .case-study-page-liberterra-text {
-  position: absolute;
-  width: 380px;
-  height: 66px;
-  margin-left: 999.5px;
-  top: 1153.9px;
-  padding-left: 100px;
-  font-family: "Gilroy Regular", Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  text-align: right;
-  color: #2c2c2c;
+position: absolute;
+width: 245px;
+height: 66px;
+left: 1020px;
+top: 1154px;
+font-family: "Gilroy Regular", Arial, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #2C2C2C;
 }
 
 .case-study-page-liberterra-btn {
   position: absolute;
   width: 365px;
   height: 43px;
-  left: 970.5px;
+  left: 890px;
   top: 1244.9px;
   font-family: "Gilroy Regular", Arial, sans-serif;
   font-style: normal;
@@ -735,12 +734,10 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
 
 .case-study-page-hollerena-laptop {
   position: absolute;
-  width: 888px;
-  height: 568px;
-  left: 523px;
+  left: 460px;
   top: 1517.9px;
 }
-
+/*
 .brands-page-everblasing-text {
   position: absolute;
   width: 340px;
@@ -1394,15 +1391,15 @@ footer {
   top: 2785px;
 }
  
-/* .case-study-footer {
+ .case-study-footer {
   position: absolute;
   display: block;
-  width: 1440px;
+  width: 100%;
   height: 91px;
   left: 0px;
   top: 2235px;
 }
-
+/*
 .brands-footer {
   position: absolute;
   display: block;
@@ -1719,6 +1716,154 @@ footer {
       align-items: center;
       text-align: right;
       color: #4f4f4f;
+    }
+
+    .case-study-page-mobile-phone {
+      position: absolute;
+      width: 562px;
+      height: 570px;
+      left: 110.5px;
+      top: 833.9px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+    }
+    
+    .case-study-page-liberterra-logo {
+      position: absolute;
+      width: 343px;
+      height: 94px;
+      left: 986.5px;
+      top: 923.9px;
+    }
+    
+    .product-designer {
+      position: absolute;
+      width: 340px;
+      height: 87px;
+      left: 989.5px;
+      top: 1041.9px;
+      font-family: "Gilroy Regular", Arial, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 29px;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      color: #2c2c2c;
+    }
+    
+    .case-study-page-liberterra-text {
+    position: absolute;
+    width: 245px;
+    height: 66px;
+    left: 1090px;
+    top: 1154px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #2C2C2C;
+    }
+    
+    .case-study-page-liberterra-btn {
+      position: absolute;
+      width: 365px;
+      height: 43px;
+      left: 970.5px;
+      top: 1244.9px;
+      font-family: "Gilroy Regular", Arial, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 43px;
+      text-align: right;
+      color: #828282;
+      text-decoration: underline dotted;
+      text-underline-offset: 10px;
+      text-decoration-thickness: 0.15em;
+    }
+    
+    .hollerena-rectangle {
+      position: absolute;
+      width: 100%;
+      height: 596px;
+      left: 0px;
+      top: 1515.85px;
+      background: #f2f2f2;
+      background-repeat: no-repeat;
+    }
+    
+    .case-studies-hollerena-logo {
+      position: absolute;
+      left: 2.01%;
+      right: 68.89%;
+      top: 65.04%;
+      bottom: 25.99%;
+      height: 212px;
+      width: 419px;
+      left: 29px;
+      top: 1536.90234375px;
+      border-radius: 0px;
+    }
+    
+    .brand-product-designer {
+      position: absolute;
+      width: 409.78px;
+      height: 87px;
+      left: 123px;
+      top: 1701.9px;
+      font-family: "Gilroy Regular", Arial, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 29px;
+      display: flex;
+      align-items: center;
+      color: #2c2c2c;
+    }
+    
+    .case-study-page-hollerena-text {
+      position: absolute;
+      width: 380px;
+      height: 66px;
+      left: 123px;
+      top: 1813.9px;
+      font-family: "Gilroy Regular", Arial, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      color: #2c2c2c;
+    }
+    
+    .case-study-page-btn {
+      position: absolute;
+      width: 365px;
+      height: 43px;
+      left: 103px;
+      top: 1904.9px;
+      font-family: "Gilroy Regular", Arial, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 43px;
+      text-align: center;
+      color: #828282;
+      text-decoration: underline dotted;
+      text-underline-offset: 10px;
+      text-decoration-thickness: 0.15em;
+    }
+    
+    .case-study-page-hollerena-laptop {
+      position: absolute;
+      left: 460px;
+      top: 1517.9px;
     }
     
 }
