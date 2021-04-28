@@ -177,7 +177,7 @@ a.active {
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
-  line-height: 59px;
+  line-height: 50px;
   color: #bdbdbd;
 }
 
@@ -1144,7 +1144,7 @@ color: #2C2C2C;
   align-items: center;
   color: #2c2c2c;
 }
-/*
+
 .website-page-btn {
   position: absolute;
   width: 310px;
@@ -1166,14 +1166,14 @@ color: #2C2C2C;
   position: absolute;
   width: 721.35px;
   height: 550.62px;
-  left: 655.32px;
+  left: 605.32px;
   top: 826.59px;
   filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.05));
 }
 
 .website-page-sophie-rectangle {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 596px;
   left: 0px;
   top: 1449.9px;
@@ -1312,7 +1312,7 @@ color: #2C2C2C;
   position: absolute;
   width: 690px;
   height: 496px;
-  left: 664.29px;
+  left: 634.29px;
   top: 2145.9px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
 }
@@ -1380,7 +1380,7 @@ color: #2C2C2C;
   left: 947.97px;
   top: 2130.84px;
 }
-*/
+
 
 footer {
   position: absolute;
@@ -1408,11 +1408,11 @@ footer {
   left: 0px;
   top: 4050px;
 }
-/*
+
 .websiteFooter {
   position: absolute;
   display: block;
-  width: 1440px;
+  width: 100%;
   height: 91px;
   left: 0px;
   top: 2700px;
@@ -1421,7 +1421,7 @@ footer {
 .illustrationFooter {
   position: absolute;
   display: block;
-  width: 1440px;
+  width: 100%;
   height: 91px;
   left: 0px;
   top: 2650px;
@@ -1430,11 +1430,11 @@ footer {
 .contactFooter {
   position: absolute;
   display: block;
-  width: 1440px;
+  width: 100%;
   height: 91px;
   left: 0px;
-  top: 685px;
-} */
+  top: 570px;
+} 
 
 .footer-text {
   position: absolute;
@@ -1586,6 +1586,21 @@ footer {
       width: 230px;
       height: 29px;
       left: 620px;
+      top: 700px;
+      font-family: "Gilroy Light", Arial, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #828282;
+    }
+
+    .scroll-btn {
+      position: absolute;
+      width: 201px;
+      height: 29px;
+      left: 634px;
       top: 700px;
       font-family: "Gilroy Light", Arial, sans-serif;
       font-style: normal;
