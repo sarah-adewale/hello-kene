@@ -152,7 +152,7 @@ a.active {
 .container {
   max-width: 100%;
   padding: 0 80px;
-  margin: 30px 0;
+  margin: 50px 0;
 }
 
 .main-text {
@@ -214,7 +214,7 @@ a.active {
   position: absolute;
   width: 250px;
   height: 339px;
-  left: 1021px;
+  left: 1051px;
   top: 200px;
 }
 
@@ -223,7 +223,7 @@ a.active {
   width: 230px;
   height: 29px;
   left: 620px;
-  top: 610px;
+  top: 580px;
   font-family: "Gilroy Light", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -1442,7 +1442,7 @@ footer {
 .footer-text {
   position: absolute;
   display: block;
-  width: 220px;
+  width: 197px;
   left: 6.01%;
   right: 80.31%;
   top: 19.78%;
@@ -1553,6 +1553,41 @@ footer {
   color: #2c2c2c;
 } 
 
+
+@media screen 
+  and (min-width: 992px)
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .container {
+      max-width: 100%;
+      padding: 0 80px;
+      margin: 100px 0;
+    } 
+
+    .main-text {
+      position: absolute;
+      width: 859px;
+      height: 472px;
+     
+      font-family: "Gilroy Bold", Arial, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 49px;
+      color: #bdbdbd;
+    }
+
+    .profilePhoto {
+      position: absolute;
+      width: 250px;
+      height: 339px;
+      left: 1051px;
+      top: 200px;
+    }
+    
+}
 @media (max-width: 925px) {
   .logo {
     display: block;
