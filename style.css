@@ -1555,9 +1555,8 @@ footer {
 
 
 @media screen  
-  and (max-device-width: 1440px)
-  and (-webkit-max-device-pixel-ratio: 2)
-  and (max-resolution: 192dpi) { 
+  and (min-device-width: 1440px)
+  { 
     .container {
       max-width: 100%;
       padding: 0 80px;
