@@ -1883,7 +1883,7 @@ footer {
     top: 520px;
   }
 }
-@media (max-width: 925px) {
+@media screen and (max-width: 925px) {
   .logo {
     display: block;
     padding-left: 50px;
@@ -1995,7 +1995,7 @@ footer {
     position: absolute;
     width: 113px;
     height: 16.47px;
-    left: 181px;
+    left: 201px;
     top: 584.1px;
     font-family: "Gilroy Light", Arial, sans-serif;
     font-style: normal;
@@ -2010,7 +2010,7 @@ footer {
     position: absolute;
     width: 202.99px;
     height: 205.88px;
-    left: 136px;
+    left: 156px;
     top: 671px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
   }
@@ -2019,14 +2019,14 @@ footer {
     position: absolute;
     width: 193.85px;
     height: 43px;
-    left: 140px;
+    left: 160px;
     top: 914px;
   }
   .liberterra-text {
     position: absolute;
     width: 202.72px;
     height: 42.59px;
-    left: 140.65px;
+    left: 160.65px;
     top: 977.56px;
     font-family: "Gilroy Regular", Arial, sans-serif;
     font-style: normal;
@@ -2041,7 +2041,7 @@ footer {
     position: absolute;
     width: 279.86px;
     height: 33.16px;
-    left: 90.65px;
+    left: 110px;
     padding-left: 50px;
     top: 1026.16px;
     font-family: "Gilroy Regular", Arial, sans-serif;
@@ -2057,7 +2057,7 @@ footer {
     position: absolute;
     width: 262.07px;
     height: 23.96px;
-    left: 85.65px;
+    left: 105px;
     top: 1065.32px;
     font-family: "Gilroy Regular", Arial, sans-serif;
     font-style: normal;
@@ -2065,6 +2065,9 @@ footer {
     font-size: 22px;
     line-height: 26px;
     color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 0.15em;
   }
 
   .background {
@@ -2080,7 +2083,7 @@ footer {
     position: absolute;
     width: 262.88px;
     height: 220.39px;
-    left: 106.06px;
+    left: 126.06px;
     top: 1224.77px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
   }
@@ -2089,7 +2092,7 @@ footer {
     position: absolute;
     width: 226.17px;
     height: 24.26px;
-    left: 131.58px;
+    left: 151.58px;
     top: 1473.97px;
   }
 
@@ -2097,7 +2100,7 @@ footer {
     position: absolute;
     width: 202.72px;
     height: 42.59px;
-    left: 131.58px;
+    left: 151.58px;
     top: 1521.33px;
     font-family: "Gilroy Regular", Arial, sans-serif;
     font-style: normal;
@@ -2111,7 +2114,7 @@ footer {
     position: absolute;
     width: 179.86px;
     height: 33.16px;
-    left: 131.58px;
+    left: 151.58px;
     top: 1569.92px;
     font-family: "Gilroy", Arial, sans-serif;
     font-style: normal;
@@ -2125,7 +2128,7 @@ footer {
     position: absolute;
     width: 262.07px;
     height: 23.96px;
-    left: 131.58px;
+    left: 151.58px;
     top: 1609.08px;
     font-family: "Gilroy Regular", Arial, sans-serif;
     font-style: normal;
@@ -2133,13 +2136,16 @@ footer {
     font-size: 22px;
     line-height: 26px;
     color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 0.15em;
   }
 
   .hollerena-laptop {
     position: absolute;
     width: 321.87px;
     height: 205.88px;
-    left: 76.56px;
+    left: 96.56px;
     top: 1758.54px;
   }
 
@@ -2151,7 +2157,7 @@ footer {
     bottom: 14.06%;
     height: 125px;
     width: 247px;
-    left: 86.5px;
+    left: 106.5px;
     top: 1966px;
     border-radius: 0px;
   }
@@ -2160,7 +2166,7 @@ footer {
     position: absolute;
     width: 202.72px;
     height: 42.59px;
-    left: 141.83px;
+    left: 161.83px;
     top: 2065.1px;
     font-family: "Gilroy Regular", Arial, sans-serif;
     font-style: normal;
@@ -2175,7 +2181,7 @@ footer {
     position: absolute;
     width: 249.86px;
     height: 33.16px;
-    left: 47.83px;
+    left: 67.83px;
     top: 2113.69px;
     font-family: "Gilroy", Arial, sans-serif;
     font-style: normal;
@@ -2190,7 +2196,7 @@ footer {
     position: absolute;
     width: 262.07px;
     height: 23.96px;
-    left: 85.83px;
+    left: 105.83px;
     top: 2152.85px;
     font-family: "Gilroy Regular", Arial, sans-serif;
     font-style: normal;
@@ -2198,6 +2204,9 @@ footer {
     font-size: 22px;
     line-height: 26px;
     color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 0.15em;
   }
 
   footer {
@@ -2330,5 +2339,12 @@ footer {
     line-height: 12px;
     text-align: right;
     color: #2c2c2c;
+  }
+}
+@media screen and (max-width: 479px) {
+  nav {
+    width: 100%;
+    height: 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
   }
 }
