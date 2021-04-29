@@ -2524,12 +2524,12 @@ footer {
     text-underline-offset: 10px;
     text-decoration-thickness: 0.15em;
   }
-  /*
+
   .hollerena-laptop {
     position: absolute;
     width: 321.87px;
     height: 205.88px;
-    left: 96.56px;
+    left: 46.56px;
     top: 1758.54px;
   }
 
@@ -2541,7 +2541,7 @@ footer {
     bottom: 14.06%;
     height: 125px;
     width: 247px;
-    left: 106.5px;
+    left: 56px;
     top: 1966px;
     border-radius: 0px;
   }
@@ -2550,7 +2550,7 @@ footer {
     position: absolute;
     width: 202.72px;
     height: 42.59px;
-    left: 161.83px;
+    left: 111.83px;
     top: 2065.1px;
     font-family: "Gilroy Regular", Arial, sans-serif;
     font-style: normal;
@@ -2565,7 +2565,7 @@ footer {
     position: absolute;
     width: 249.86px;
     height: 33.16px;
-    left: 67.83px;
+    left: 17.83px;
     top: 2113.69px;
     font-family: "Gilroy", Arial, sans-serif;
     font-style: normal;
@@ -2580,7 +2580,7 @@ footer {
     position: absolute;
     width: 262.07px;
     height: 23.96px;
-    left: 105.83px;
+    left: 55px;
     top: 2152.85px;
     font-family: "Gilroy Regular", Arial, sans-serif;
     font-style: normal;
@@ -2592,7 +2592,7 @@ footer {
     text-underline-offset: 10px;
     text-decoration-thickness: 0.15em;
   }
-
+  /*
   footer {
     position: absolute;
     display: block;
