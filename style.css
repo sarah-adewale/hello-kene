@@ -2344,9 +2344,9 @@ footer {
 @media screen and (max-width: 479px) {
   .logo {
     position: absolute;
-    left: -2.06%;
+    left: -5.06%;
     right: 87.6%;
-    top: -2%;
+    top: 0%;
     bottom: 22.88%;
   }
   nav {
