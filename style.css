@@ -2375,4 +2375,18 @@ footer {
     line-height: 24px;
     color: #bdbdbd;
   }
+  .scrollBtn {
+    position: absolute;
+    width: 113px;
+    height: 16.47px;
+    left: 170px;
+    top: 534.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #828282;
+  }
 }
