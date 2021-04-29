@@ -2389,4 +2389,12 @@ footer {
     text-align: center;
     color: #828282;
   }
+  .liberterra-mobile {
+    position: absolute;
+    width: 202.99px;
+    height: 205.88px;
+    left: 136px;
+    top: 671px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
 }
