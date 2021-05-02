@@ -2616,4 +2616,108 @@ footer {
     line-height: 12px;
     color: #2c2c2c;
   }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    left: 4.4%;
+    right: 50%;
+    top: 54.13%;
+    bottom: 26.03%;
+    height: 12px;
+    width: 171px;
+    left: 16.5px;
+    top: 32.748046875px;
+    border-radius: 0px;
+  }
+
+  .behance {
+    position: static;
+    width: 36px;
+    height: 12px;
+    left: 0px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #4111e8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .medium {
+    position: static;
+    width: 33px;
+    height: 12px;
+    left: 49px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #2c2c2c;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .dribbble {
+    position: static;
+    width: 30px;
+    height: 12px;
+    left: 95px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #ff7dbd;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .upwork {
+    position: static;
+    width: 33px;
+    height: 12px;
+    left: 138px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #00ac8b;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .copyright-text {
+    position: absolute;
+    left: 61.06%;
+    right: 2.68%;
+    top: 54.13%;
+    bottom: 26.03%;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: right;
+    color: #2c2c2c;
+  }
 }
