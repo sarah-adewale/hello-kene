@@ -2209,13 +2209,132 @@ footer {
     text-decoration-thickness: 0.15em;
   }
 
-  footer {
+  .rectangle-projects {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 700.23px;
+    background: #f2f2f2;
+  }
+
+  .case-study-icon-2 {
+    position: absolute;
+    left: 42.47%;
+    right: 39.91%;
+    top: 40.59%;
+    bottom: 54.26%;
+    height: 80px;
+    width: 66.05802917480469px;
+    left: 229px;
+    top: 730.3818359375px;
+    border-radius: 0px;
+  }
+
+  .case-studies-text-projects {
+    position: absolute;
+    width: 173px;
+    height: 37px;
+    left: 171px;
+    top: 824.9px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .brand-identity {
+    position: absolute;
+    width: 78.99px;
+    height: 80px;
+    left: 218px;
+    top: 922px;
+  }
+
+  .brand-identity-text {
+    position: absolute;
+    width: 199px;
+    height: 37px;
+    left: 158px;
+    top: 1016.72px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .rectangle-projects-2 {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 1083.87px;
+  }
+
+  .websites-icon {
+    position: absolute;
+    width: 80.83px;
+    height: 80px;
+    left: 217.08px;
+    top: 1114.02px;
+  }
+
+  .websites-text {
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 196px;
+    top: 1208.54px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .illustrations-icon {
+    position: absolute;
+    left: 40.53%;
+    right: 38.13%;
+    top: 77.66%;
+    bottom: 17.19%;
+    height: 80px;
+    width: 80px;
+    left: 222px;
+    top: 1306px;
+    border-radius: 0px;
+  }
+
+  .illustrations-text {
+    position: absolute;
+    width: 238px;
+    height: 37px;
+    left: 138px;
+    top: 1400.36px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .ProjectFooter {
     position: absolute;
     display: block;
     width: 100%;
     height: 91px;
     left: 0px;
-    margin-top: -485px;
+    margin-top: -1300px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
   }
 
@@ -2593,6 +2712,135 @@ footer {
     text-decoration-thickness: 0.15em;
   }
 
+  .rectangle-projects {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 700.23px;
+    background: #f2f2f2;
+  }
+
+  .case-study-icon-2 {
+    position: absolute;
+    left: 42.47%;
+    right: 39.91%;
+    top: 40.59%;
+    bottom: 54.26%;
+    height: 80px;
+    width: 66.05802917480469px;
+    left: 179px;
+    top: 730.3818359375px;
+    border-radius: 0px;
+  }
+
+  .case-studies-text-projects {
+    position: absolute;
+    width: 173px;
+    height: 37px;
+    left: 121px;
+    top: 824.9px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .brand-identity {
+    position: absolute;
+    width: 78.99px;
+    height: 80px;
+    left: 168px;
+    top: 922px;
+  }
+
+  .brand-identity-text {
+    position: absolute;
+    width: 199px;
+    height: 37px;
+    left: 108px;
+    top: 1016.72px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .rectangle-projects-2 {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 1083.87px;
+  }
+
+  .websites-icon {
+    position: absolute;
+    width: 80.83px;
+    height: 80px;
+    left: 167.08px;
+    top: 1114.02px;
+  }
+
+  .websites-text {
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 146px;
+    top: 1208.54px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .illustrations-icon {
+    position: absolute;
+    left: 40.53%;
+    right: 38.13%;
+    top: 77.66%;
+    bottom: 17.19%;
+    height: 80px;
+    width: 80px;
+    left: 172px;
+    top: 1306px;
+    border-radius: 0px;
+  }
+
+  .illustrations-text {
+    position: absolute;
+    width: 238px;
+    height: 37px;
+    left: 88px;
+    top: 1400.36px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .ProjectFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -1300px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
   footer {
     position: absolute;
     display: block;
@@ -2616,7 +2864,473 @@ footer {
     line-height: 12px;
     color: #2c2c2c;
   }
-  
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    left: 4.4%;
+    right: 50%;
+    top: 54.13%;
+    bottom: 26.03%;
+    height: 12px;
+    width: 171px;
+    left: 16.5px;
+    top: 32.748046875px;
+    border-radius: 0px;
+  }
+
+  .behance {
+    position: static;
+    width: 36px;
+    height: 12px;
+    left: 0px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #4111e8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .medium {
+    position: static;
+    width: 33px;
+    height: 12px;
+    left: 49px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #2c2c2c;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .dribbble {
+    position: static;
+    width: 30px;
+    height: 12px;
+    left: 95px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #ff7dbd;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .upwork {
+    position: static;
+    width: 33px;
+    height: 12px;
+    left: 138px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #00ac8b;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .copyright-text {
+    position: absolute;
+    left: 61.06%;
+    right: 2.68%;
+    top: 54.13%;
+    bottom: 26.03%;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: right;
+    color: #2c2c2c;
+  }
+}
+@media screen and (max-width: 375px) {
+  .scrollBtn {
+    position: absolute;
+    width: 113px;
+    height: 16.47px;
+    left: 130px;
+    top: 564.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #828282;
+  }
+  .liberterra-mobile {
+    position: absolute;
+    width: 202.99px;
+    height: 205.88px;
+    left: 86px;
+    top: 671px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
+
+  .liberterra-logo {
+    position: absolute;
+    width: 193.85px;
+    height: 43px;
+    left: 90px;
+    top: 914px;
+  }
+
+  .liberterra-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 90px;
+    top: 977.56px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .liberterra-text-2 {
+    position: absolute;
+    width: 279.86px;
+    height: 33.16px;
+    left: 40px;
+    padding-left: 50px;
+    top: 1026.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .liberterra-btn {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 35px;
+    top: 1065.32px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 1194px;
+    background: #f2f2f2;
+  }
+
+  .sophie-screen {
+    position: absolute;
+    width: 262.88px;
+    height: 220.39px;
+    left: 56px;
+    top: 1224.77px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .sophie-logo {
+    position: absolute;
+    width: 226.17px;
+    height: 24.26px;
+    left: 81.58px;
+    top: 1473.97px;
+  }
+
+  .sophie-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 81.58px;
+    top: 1521.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .sophie-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 81.58px;
+    top: 1569.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .sophie-btn {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 81.58px;
+    top: 1609.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .hollerena-laptop {
+    position: absolute;
+    width: 321.87px;
+    height: 205.88px;
+    left: 26.56px;
+    top: 1758.54px;
+  }
+
+  .hollerena-logo {
+    position: absolute;
+    left: 9.73%;
+    right: 24.4%;
+    top: 80.67%;
+    bottom: 14.06%;
+    height: 125px;
+    width: 247px;
+    left: 36px;
+    top: 1966px;
+    border-radius: 0px;
+  }
+
+  .hollerena-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 91.83px;
+    top: 2065.1px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-text-2 {
+    position: absolute;
+    width: 249.86px;
+    height: 33.16px;
+    left: 0px;
+    top: 2113.69px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-btn {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 35px;
+    top: 2152.85px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .rectangle-projects {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 700.23px;
+    background: #f2f2f2;
+  }
+
+  .case-study-icon-2 {
+    position: absolute;
+    left: 42.47%;
+    right: 39.91%;
+    top: 40.59%;
+    bottom: 54.26%;
+    height: 80px;
+    width: 66.05802917480469px;
+    left: 159px;
+    top: 730.3818359375px;
+    border-radius: 0px;
+  }
+
+  .case-studies-text-projects {
+    position: absolute;
+    width: 173px;
+    height: 37px;
+    left: 101px;
+    top: 824.9px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .brand-identity {
+    position: absolute;
+    width: 78.99px;
+    height: 80px;
+    left: 148px;
+    top: 922px;
+  }
+
+  .brand-identity-text {
+    position: absolute;
+    width: 199px;
+    height: 37px;
+    left: 88px;
+    top: 1016.72px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .rectangle-projects-2 {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 1083.87px;
+  }
+
+  .websites-icon {
+    position: absolute;
+    width: 80.83px;
+    height: 80px;
+    left: 147.08px;
+    top: 1114.02px;
+  }
+
+  .websites-text {
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 126px;
+    top: 1208.54px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .illustrations-icon {
+    position: absolute;
+    left: 40.53%;
+    right: 38.13%;
+    top: 77.66%;
+    bottom: 17.19%;
+    height: 80px;
+    width: 80px;
+    left: 152px;
+    top: 1306px;
+    border-radius: 0px;
+  }
+
+  .illustrations-text {
+    position: absolute;
+    width: 238px;
+    height: 37px;
+    left: 68px;
+    top: 1400.36px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -485px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .footer-text {
+    position: absolute;
+    left: 6.4%;
+    right: 69.2%;
+    top: 29.34%;
+    bottom: 50.83%;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
   .footer-links {
     display: flex;
     flex-direction: row;
