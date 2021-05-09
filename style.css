@@ -1874,6 +1874,174 @@ footer {
     top: 1517.9px;
   }
 
+  footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 2785px;
+  }
+
+  .case-study-footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 2235px;
+  }
+
+  .brands-footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 4050px;
+  }
+
+  .websiteFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 2700px;
+  }
+
+  .illustrationFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 2650px;
+  }
+
+  .contactFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 570px;
+  }
+
+  .footer-text {
+    position: absolute;
+    display: block;
+    width: 197px;
+    left: 6.01%;
+    right: 80.31%;
+    top: 19.78%;
+    bottom: 52.75%;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2c2c2c;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    left: 2.6%;
+    right: 65.38%;
+    top: 51.65%;
+    bottom: 20.88%;
+  }
+
+  .behance {
+    position: static;
+    width: 71px;
+    height: 25px;
+    left: 10px;
+    top: 10px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4111e8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 50px;
+  }
+
+  .medium {
+    position: static;
+    width: 66px;
+    height: 25px;
+    left: 121px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2c2c2c;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 50px;
+  }
+
+  .dribbble {
+    position: static;
+    width: 60px;
+    height: 25px;
+    left: 237px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ff7dbd;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 50px;
+  }
+
+  .upwork {
+    position: static;
+    width: 65px;
+    height: 25px;
+    left: 347px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #00ac8b;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 50px;
+  }
+
+  .copyright-text {
+    position: absolute;
+    left: 75.85%;
+    right: 3.33%;
+    top: 51.65%;
+    bottom: 20.88%;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2c2c2c;
+  }
+
   .contactFooter {
     position: absolute;
     display: block;
@@ -2002,8 +2170,33 @@ footer {
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    text-align: center;
+    /* text-align: center; */
     color: #828282;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scroll-btn {
+    position: absolute;
+    width: 113px;
+    height: 16.47px;
+    left: 201px;
+    top: 534.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* text-align: center; */
+    color: #828282;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .liberterra-mobile {
@@ -2013,6 +2206,11 @@ footer {
     left: 146px;
     top: 671px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .liberterra-logo {
@@ -2328,6 +2526,718 @@ footer {
     color: #4f4f4f;
   }
 
+  .case-study-page-mobile-phone {
+    position: absolute;
+    width: 202.99px;
+    height: 205.88px;
+    left: 156px;
+    top: 621px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
+
+  .case-study-page-liberterra-logo {
+    position: absolute;
+    width: 193.7px;
+    height: 43.13px;
+    left: 160.65px;
+    top: 864.3px;
+  }
+
+  .product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 160.65px;
+    top: 927.56px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 160.65px;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-btn {
+    position: absolute;
+    width: 179.86px;
+    height: 28.97px;
+    left: 160.65px;
+    top: 1015.32px;
+    width: 262.07px;
+    height: 23.96px;
+    left: 160.65px;
+    top: 1015.32px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-rectangle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 62.48%;
+    bottom: 10.01%;
+    height: 503.767578125px;
+    width: 100%;
+    top: 1144px;
+    border-radius: 0px;
+    background: #f2f2f2;
+  }
+
+  .case-study-page-hollerena-laptop {
+    position: absolute;
+    width: 321.87px;
+    height: 205.88px;
+    left: 96.56px;
+    top: 1164.77px;
+  }
+
+  .case-studies-hollerena-logo {
+    position: absolute;
+    left: 10.8%;
+    right: 23.33%;
+    top: 74.93%;
+    bottom: 18.24%;
+    height: 125px;
+    width: 247px;
+    left: 110.5px;
+    top: 1372px;
+    border-radius: 0px;
+  }
+
+  .brand-product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 161.83px;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-hollerena-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 161.83px;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-btn {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 161.83px;
+    top: 1559.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .ese {
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 155px;
+    top: 621.88px;
+  }
+
+  .brands-page-everblasing-text {
+    position: absolute;
+    width: 102.09px;
+    height: 85.94px;
+    left: 156.46px;
+    top: 875.78px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-text-2 {
+    position: absolute;
+    width: 162.07px;
+    height: 46.72px;
+    left: 156.46px;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-btn {
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 156.46px;
+    top: 1042.87px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-olaa {
+    position: absolute;
+    width: 100%;
+    height: 510.84px;
+    left: 0px;
+    top: 1136.92px;
+  }
+
+  .brands-page-everblasing-olaa-logo {
+    position: absolute;
+    width: 282.63px;
+    height: 282.63px;
+    left: 116.68px;
+    top: 1136.92px;
+  }
+
+  .brands-page-everblasing-olaa-text {
+    position: absolute;
+    width: 61px;
+    height: 29px;
+    left: -86px;
+    top: 1420px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-everblasing-olaa-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 156.46px;
+    top: 1469px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-olaa-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 156.5px;
+    top: 1522px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-logo {
+    position: absolute;
+    width: 223px;
+    height: 184.94px;
+    left: 146px;
+    top: 1738.04px;
+  }
+
+  .brands-page-seth-pixel-text {
+    position: absolute;
+    width: 112px;
+    height: 28px;
+    left: 156.5px;
+    top: 1963px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 156.46px;
+    top: 2010.84px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 156.5px;
+    top: 2064px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-tact-editorial-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 2231.54px;
+  }
+
+  .brands-page-tact-editorial-logo {
+    position: absolute;
+    width: 406px;
+    height: 221px;
+    left: 44.5px;
+    top: 2257px;
+  }
+
+  .brands-page-tact-editorial-text {
+    position: absolute;
+    width: 97px;
+    height: 59px;
+    left: 120px;
+    top: 2507px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-editorial-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 36.28px;
+    left: 156.46px;
+    top: 2585.72px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-editorial-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 156px;
+    top: 2642px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-logo {
+    position: absolute;
+    left: 14.13%;
+    right: 14.13%;
+    top: 70.26%;
+    bottom: 25.54%;
+    height: 168px;
+    width: 269px;
+    left: 122px;
+    top: 2815px;
+    border-radius: 0px;
+  }
+
+  .brands-page-channies-text {
+    position: absolute;
+    width: 110px;
+    height: 29px;
+    left: 156px;
+    top: 3051px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 156px;
+    top: 3100.21px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 156px;
+    top: 3169px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 3319.07px;
+    background: #f2f2f2;
+  }
+
+  .brands-page-broque-logo {
+    position: absolute;
+    width: 286.97px;
+    height: 113.52px;
+    left: 114px;
+    top: 3392.73px;
+  }
+
+  .brands-page-broque-text {
+    position: absolute;
+    width: 85px;
+    height: 29px;
+    left: -24px;
+    top: 3595px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 156.5px;
+    top: 3712px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 156.46px;
+    top: 3643.97px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .color-me-screen {
+    position: absolute;
+    width: 276.28px;
+    height: 210.89px;
+    left: 129.86px;
+    top: 608.48px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .color-me-logo {
+    position: absolute;
+    width: 184.87px;
+    height: 73.66px;
+    left: 150.65px;
+    top: 858.83px;
+  }
+
+  .color-me-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 151.83px;
+    top: 955.49px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .color-me-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 151.83px;
+    top: 1004.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .website-page-btn {
+    position: absolute;
+    width: 238px;
+    height: 24px;
+    left: 151.5px;
+    top: 1063px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .website-page-sophie-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 1144px;
+    background: #f2f2f2;
+  }
+
+  .website-page-sophie {
+    position: absolute;
+    width: 262.88px;
+    height: 220.39px;
+    left: 126.06px;
+    top: 1164.77px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-sophie-logo {
+    position: absolute;
+    width: 226.17px;
+    height: 24.26px;
+    left: 131.58px;
+    top: 1423.97px;
+  }
+
+  .website-page-sophie-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 131.58px;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-text-2 {
+    position: absolute;
+    width: 279.86px;
+    height: 33.16px;
+    left: 26px;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-btn {
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 131.5px;
+    top: 1559px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-popper-blog-screen {
+    position: absolute;
+    width: 286.33px;
+    height: 205.83px;
+    left: 114.12px;
+    top: 1708.54px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-popper-blog-logo {
+    position: absolute;
+    width: 95.74px;
+    height: 85.1px;
+    left: 199.73px;
+    top: 1953.36px;
+  }
+
+  .website-page-popper-blog-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 151.83px;
+    top: 2044.47px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-blog-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 151.83px;
+    top: 2093.06px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-blog-btn {
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    left: 141px;
+    top: 2132px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .footer {
+    position: absolute;
+    width: 100%;
+    height: 91px;
+    /* left: 0;
+    top: -2400px; */
+    background-color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .websiteFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0;
+    margin-top: -400px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .brands-footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -150px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+  .case-study-footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -500px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
   .ProjectFooter {
     position: absolute;
     display: block;
@@ -2337,15 +3247,6 @@ footer {
     margin-top: -1300px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
   }
-
-  /* .footer {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    background-color: white;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
-  } */
 
   .footer-text {
     position: absolute;
@@ -2500,6 +3401,21 @@ footer {
     height: 16.47px;
     left: 150px;
     top: 564.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #828282;
+  }
+
+  .scroll-btn {
+    position: absolute;
+    width: 113px;
+    height: 16.47px;
+    left: 151px;
+    top: 534.1px;
     font-family: "Gilroy Light", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -2831,13 +3747,707 @@ footer {
     color: #4f4f4f;
   }
 
+  .case-study-page-mobile-phone {
+    position: absolute;
+    width: 202.99px;
+    height: 205.88px;
+    left: 106px;
+    top: 621px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
+
+  .case-study-page-liberterra-logo {
+    position: absolute;
+    width: 193.7px;
+    height: 43.13px;
+    left: 110.65px;
+    top: 864.3px;
+  }
+
+  .product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 110.65px;
+    top: 927.56px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 110.65px;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-btn {
+    position: absolute;
+    width: 179.86px;
+    height: 28.97px;
+    left: 110.65px;
+    top: 1015.32px;
+    width: 262.07px;
+    height: 23.96px;
+    left: 110.65px;
+    top: 1015.32px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-rectangle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 62.48%;
+    bottom: 10.01%;
+    height: 503.767578125px;
+    width: 100%;
+    top: 1144px;
+    border-radius: 0px;
+    background: #f2f2f2;
+  }
+
+  .case-study-page-hollerena-laptop {
+    position: absolute;
+    width: 321.87px;
+    height: 205.88px;
+    left: 46.56px;
+    top: 1164.77px;
+  }
+
+  .case-studies-hollerena-logo {
+    position: absolute;
+    left: 10.8%;
+    right: 23.33%;
+    top: 74.93%;
+    bottom: 18.24%;
+    height: 125px;
+    width: 247px;
+    left: 60.5px;
+    top: 1372px;
+    border-radius: 0px;
+  }
+
+  .brand-product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 111.83px;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-hollerena-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 111.83px;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-btn {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 111.83px;
+    top: 1559.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .ese {
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 105px;
+    top: 621.88px;
+  }
+
+  .brands-page-everblasing-text {
+    position: absolute;
+    width: 102.09px;
+    height: 85.94px;
+    left: 106.46px;
+    top: 875.78px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-text-2 {
+    position: absolute;
+    width: 162.07px;
+    height: 46.72px;
+    left: 106.46px;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-btn {
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 106.46px;
+    top: 1042.87px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-olaa {
+    position: absolute;
+    width: 100%;
+    height: 510.84px;
+    left: 0px;
+    top: 1136.92px;
+  }
+
+  .brands-page-everblasing-olaa-logo {
+    position: absolute;
+    width: 282.63px;
+    height: 282.63px;
+    left: 66px;
+    top: 1136.92px;
+  }
+
+  .brands-page-everblasing-olaa-text {
+    position: absolute;
+    width: 61px;
+    height: 29px;
+    left: -136px;
+    top: 1420px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-everblasing-olaa-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 106px;
+    top: 1469px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-olaa-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 106px;
+    top: 1522px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-logo {
+    position: absolute;
+    width: 223px;
+    height: 184.94px;
+    left: 96px;
+    top: 1738.04px;
+  }
+
+  .brands-page-seth-pixel-text {
+    position: absolute;
+    width: 112px;
+    height: 28px;
+    left: 106.5px;
+    top: 1963px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 106px;
+    top: 2010.84px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 106px;
+    top: 2064px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-tact-editorial-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 2231.54px;
+  }
+
+  .brands-page-tact-editorial-logo {
+    position: absolute;
+    width: 406px;
+    height: 221px;
+    left: 4.5px;
+    top: 2257px;
+  }
+
+  .brands-page-tact-editorial-text {
+    position: absolute;
+    width: 97px;
+    height: 59px;
+    left: 70px;
+    top: 2507px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-editorial-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 36.28px;
+    left: 106.46px;
+    top: 2585.72px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-editorial-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 106px;
+    top: 2642px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-logo {
+    position: absolute;
+    left: 14.13%;
+    right: 14.13%;
+    top: 70.26%;
+    bottom: 25.54%;
+    height: 168px;
+    width: 269px;
+    left: 72px;
+    top: 2815px;
+    border-radius: 0px;
+  }
+
+  .brands-page-channies-text {
+    position: absolute;
+    width: 110px;
+    height: 29px;
+    left: 106px;
+    top: 3051px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 106px;
+    top: 3100.21px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 106px;
+    top: 3169px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 3319.07px;
+    background: #f2f2f2;
+  }
+
+  .brands-page-broque-logo {
+    position: absolute;
+    width: 286.97px;
+    height: 113.52px;
+    left: 64px;
+    top: 3392.73px;
+  }
+
+  .brands-page-broque-text {
+    position: absolute;
+    width: 85px;
+    height: 29px;
+    left: -74px;
+    top: 3595px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 106.5px;
+    top: 3712px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 106.46px;
+    top: 3643.97px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .color-me-screen {
+    position: absolute;
+    width: 276.28px;
+    height: 210.89px;
+    left: 79.86px;
+    top: 608.48px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .color-me-logo {
+    position: absolute;
+    width: 184.87px;
+    height: 73.66px;
+    left: 120.65px;
+    top: 858.83px;
+  }
+
+  .color-me-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 121.83px;
+    top: 955.49px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .color-me-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 121.83px;
+    top: 1004.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .website-page-btn {
+    position: absolute;
+    width: 238px;
+    height: 24px;
+    left: 121.5px;
+    top: 1063px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .website-page-sophie-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 1144px;
+    background: #f2f2f2;
+  }
+
+  .website-page-sophie {
+    position: absolute;
+    width: 262.88px;
+    height: 220.39px;
+    left: 76.06px;
+    top: 1164.77px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-sophie-logo {
+    position: absolute;
+    width: 226.17px;
+    height: 24.26px;
+    left: 101.58px;
+    top: 1423.97px;
+  }
+
+  .website-page-sophie-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 101.58px;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-text-2 {
+    position: absolute;
+    width: 279.86px;
+    height: 33.16px;
+    left: -4px;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-btn {
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 101.5px;
+    top: 1559px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-popper-blog-screen {
+    position: absolute;
+    width: 286.33px;
+    height: 205.83px;
+    left: 64.12px;
+    top: 1708.54px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-popper-blog-logo {
+    position: absolute;
+    width: 95.74px;
+    height: 85.1px;
+    left: 169.73px;
+    top: 1953.36px;
+  }
+
+  .website-page-popper-blog-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 121.83px;
+    top: 2044.47px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-blog-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 121.83px;
+    top: 2093.06px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-blog-btn {
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    left: 121px;
+    top: 2132px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .websiteFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -400px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .brands-footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -150px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
   .ProjectFooter {
     position: absolute;
     display: block;
     width: 100%;
     height: 91px;
     left: 0px;
-    margin-top: -800px;
+    margin-top: -1300px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
   }
 
@@ -2976,6 +4586,21 @@ footer {
     height: 16.47px;
     left: 130px;
     top: 564.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #828282;
+  }
+
+  .scroll-btn {
+    position: absolute;
+    width: 113px;
+    height: 16.47px;
+    left: 131px;
+    top: 534.1px;
     font-family: "Gilroy Light", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -3305,6 +4930,690 @@ footer {
     line-height: 37px;
     text-align: center;
     color: #4f4f4f;
+  }
+
+  .case-study-page-mobile-phone {
+    position: absolute;
+    width: 202.99px;
+    height: 205.88px;
+    left: 86px;
+    top: 621px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
+
+  .case-study-page-liberterra-logo {
+    position: absolute;
+    width: 193.7px;
+    height: 43.13px;
+    left: 90.65px;
+    top: 864.3px;
+  }
+
+  .product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 90.65px;
+    top: 927.56px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 90.65px;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-btn {
+    position: absolute;
+    width: 179.86px;
+    height: 28.97px;
+    left: 90.65px;
+    top: 1015.32px;
+    width: 262.07px;
+    height: 23.96px;
+    left: 90.65px;
+    top: 1015.32px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-rectangle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 62.48%;
+    bottom: 10.01%;
+    height: 503.767578125px;
+    width: 100%;
+    top: 1144px;
+    border-radius: 0px;
+    background: #f2f2f2;
+  }
+
+  .case-study-page-hollerena-laptop {
+    position: absolute;
+    width: 321.87px;
+    height: 205.88px;
+    left: 26.56px;
+    top: 1164.77px;
+  }
+
+  .case-studies-hollerena-logo {
+    position: absolute;
+    left: 10.8%;
+    right: 23.33%;
+    top: 74.93%;
+    bottom: 18.24%;
+    height: 125px;
+    width: 247px;
+    left: 40.5px;
+    top: 1372px;
+    border-radius: 0px;
+  }
+
+  .brand-product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 91.83px;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-hollerena-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 91.83px;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-btn {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 91.83px;
+    top: 1559.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .ese {
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 85px;
+    top: 621.88px;
+  }
+
+  .brands-page-everblasing-text {
+    position: absolute;
+    width: 102.09px;
+    height: 85.94px;
+    left: 86.46px;
+    top: 875.78px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-text-2 {
+    position: absolute;
+    width: 162.07px;
+    height: 46.72px;
+    left: 86.46px;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-btn {
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 86.46px;
+    top: 1042.87px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-olaa {
+    position: absolute;
+    width: 100%;
+    height: 510.84px;
+    left: 0px;
+    top: 1136.92px;
+  }
+
+  .brands-page-everblasing-olaa-logo {
+    position: absolute;
+    width: 282.63px;
+    height: 282.63px;
+    left: 46px;
+    top: 1136.92px;
+  }
+
+  .brands-page-everblasing-olaa-text {
+    position: absolute;
+    width: 61px;
+    height: 29px;
+    left: -156px;
+    top: 1420px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-everblasing-olaa-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 86px;
+    top: 1469px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-olaa-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 86px;
+    top: 1522px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-logo {
+    position: absolute;
+    width: 223px;
+    height: 184.94px;
+    left: 76px;
+    top: 1738.04px;
+  }
+
+  .brands-page-seth-pixel-text {
+    position: absolute;
+    width: 112px;
+    height: 28px;
+    left: 86.5px;
+    top: 1963px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 86px;
+    top: 2010.84px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 86px;
+    top: 2064px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-tact-editorial-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 2231.54px;
+  }
+
+  .brands-page-tact-editorial-logo {
+    position: absolute;
+    width: 406px;
+    height: 221px;
+    left: -10px;
+    top: 2257px;
+  }
+
+  .brands-page-tact-editorial-text {
+    position: absolute;
+    width: 97px;
+    height: 59px;
+    left: 50px;
+    top: 2507px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-editorial-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 36.28px;
+    left: 86.46px;
+    top: 2585.72px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-editorial-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 86px;
+    top: 2642px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-logo {
+    position: absolute;
+    left: 14.13%;
+    right: 14.13%;
+    top: 70.26%;
+    bottom: 25.54%;
+    height: 168px;
+    width: 269px;
+    left: 52px;
+    top: 2815px;
+    border-radius: 0px;
+  }
+
+  .brands-page-channies-text {
+    position: absolute;
+    width: 110px;
+    height: 29px;
+    left: 86px;
+    top: 3051px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 86px;
+    top: 3100.21px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 86px;
+    top: 3169px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 3319.07px;
+    background: #f2f2f2;
+  }
+
+  .brands-page-broque-logo {
+    position: absolute;
+    width: 286.97px;
+    height: 113.52px;
+    left: 44px;
+    top: 3392.73px;
+  }
+
+  .brands-page-broque-text {
+    position: absolute;
+    width: 85px;
+    height: 29px;
+    left: -94px;
+    top: 3595px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 86.5px;
+    top: 3712px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 86.46px;
+    top: 3643.97px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .color-me-screen {
+    position: absolute;
+    width: 276.28px;
+    height: 210.89px;
+    left: 59.86px;
+    top: 608.48px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .color-me-logo {
+    position: absolute;
+    width: 184.87px;
+    height: 73.66px;
+    left: 100.65px;
+    top: 858.83px;
+  }
+
+  .color-me-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 101.83px;
+    top: 955.49px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .color-me-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 101.83px;
+    top: 1004.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .website-page-btn {
+    position: absolute;
+    width: 238px;
+    height: 24px;
+    left: 101.5px;
+    top: 1063px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .website-page-sophie-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 1144px;
+    background: #f2f2f2;
+  }
+
+  .website-page-sophie {
+    position: absolute;
+    width: 262.88px;
+    height: 220.39px;
+    left: 56.06px;
+    top: 1164.77px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-sophie-logo {
+    position: absolute;
+    width: 226.17px;
+    height: 24.26px;
+    left: 81.58px;
+    top: 1423.97px;
+  }
+
+  .website-page-sophie-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 81.58px;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-text-2 {
+    position: absolute;
+    width: 279.86px;
+    height: 33.16px;
+    left: -24px;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-btn {
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 81.5px;
+    top: 1559px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-popper-blog-screen {
+    position: absolute;
+    width: 286.33px;
+    height: 205.83px;
+    left: 44.12px;
+    top: 1708.54px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-popper-blog-logo {
+    position: absolute;
+    width: 95.74px;
+    height: 85.1px;
+    left: 149.73px;
+    top: 1953.36px;
+  }
+
+  .website-page-popper-blog-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 101.83px;
+    top: 2044.47px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-blog-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 101.83px;
+    top: 2093.06px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-blog-btn {
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    left: 101px;
+    top: 2132px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .websiteFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -400px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
   }
 
   footer {
