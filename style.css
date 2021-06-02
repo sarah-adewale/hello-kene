@@ -2578,10 +2578,10 @@ footer {
     line-height: 26px;
     color: #2c2c2c;
     text-align: left;
-    border-bottom: 2px dotted #2c2c2c;
-    /* text-decoration: underline dotted;
+/*     border-bottom: 2px dotted #2c2c2c; */
+    text-decoration: underline dotted;
     text-underline-offset: 5px;
-    text-decoration-thickness: 0.15em; */
+    text-decoration-thickness: 0.15em;
   }
 
   .background {
