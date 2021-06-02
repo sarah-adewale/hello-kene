@@ -1,0 +1,6656 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url(images/fonts/Gilroy-Bold.ttf) format("truetype"),
+    url(images/fonts/Gilroy-ExtraBold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gilroy light";
+  src: url(images/fonts/Gilroy-Light.ttf) format("truetype"),
+    url(images/fonts/Gilroy-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: "Gilroy Regular";
+  src: url(images/fonts/Gilroy-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Gilroy Medium";
+  src: url(images/fonts/Gilroy-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Gilroy Black";
+  src: url(images/fonts/Gilroy-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Nunito Semi Bold";
+  src: url(images/fonts/NunitoSans-SemiBold.ttf) format("truetype");
+}
+
+span {
+  color: #2c2c2c;
+}
+
+body {
+  max-width: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  /* width: 40.81px;
+  height: 66.94px; */
+  padding: 0 80px;
+  margin-top: 15px;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  float: right;
+  margin: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 auto;
+}
+
+nav ul li a {
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  padding: 7px 11px;
+  border-radius: 3px;
+  color: #828282;
+}
+/*
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*  */
+
+/* a {
+  color: #2c2c2c;
+  transition: 0.5s;
+} */
+
+a {
+  color: #828282;
+}
+
+a:hover {
+  color: #2c2c2c;
+  transition: 0.5s;
+}
+
+a.active {
+  color: #2c2c2c;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #2c2c2c;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/* .toggle ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  float: right;
+  padding: 0 50px;
+  margin: 5px;
+}
+.sun {
+  position: absolute;
+  width: 31.94px;
+  height: 31.94px;
+  left: 1210px;
+  top: 121.13px;
+}
+.btn-toggle {
+  position: absolute;
+  width: 37.53px;
+  height: 37.53px;
+  left: 1256.46px;
+  top: 117.27px;
+  background: none;
+  border: none;
+}
+.moon {
+  position: absolute;
+  width: 25.55px;
+  height: 25.55px;
+  left: 1308.45px;
+  top: 124.32px;
+} */
+
+.container {
+  max-width: 100%;
+  padding: 0 80px;
+  margin: 50px 0;
+}
+
+.main-text {
+  position: absolute;
+  width: 859px;
+  height: 472px;
+
+  font-family: "Gilroy Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 49px;
+  color: #bdbdbd;
+}
+
+.main-text-2 {
+  position: absolute;
+  width: 904px;
+  height: 401px;
+
+  font-family: "Gilroy Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 50px;
+  color: #bdbdbd;
+}
+
+.email-address {
+  color: #2c2c2c;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+
+.developer {
+  color: #828282;
+}
+
+.designing {
+  color: #828282;
+}
+
+.my-work {
+  color: #2c2c2c;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+
+.say-hello {
+  color: #2c2c2c;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+
+.profilePhoto {
+  position: absolute;
+  width: 250px;
+  height: 339px;
+  left: 1051px;
+  top: 200px;
+}
+
+.scrollBtn {
+  position: absolute;
+  width: 230px;
+  height: 29px;
+  left: 620px;
+  top: 580px;
+  font-family: "Gilroy Light", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #828282;
+  scroll-behavior: smooth;
+}
+
+/* #projects {
+  scroll-behavior: smooth;
+} */
+
+.scroll-btn {
+  position: absolute;
+  width: 201px;
+  height: 29px;
+  left: 634px;
+  top: 580px;
+  font-family: "Gilroy Light", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #828282;
+}
+
+.liberterra {
+  width: 100%;
+  height: 596px;
+}
+
+.liberterra-mobile {
+  position: absolute;
+  width: 562px;
+  height: 570px;
+  left: 110.5px;
+  top: 819px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+}
+
+.liberterra-logo {
+  position: absolute;
+  width: 343px;
+  height: 94px;
+  left: 930.5px;
+  top: 909px;
+}
+
+.liberterra-text {
+  position: absolute;
+  width: 340px;
+  height: 87px;
+  left: 930.5px;
+  top: 1027px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #2c2c2c;
+}
+
+.liberterra-text-2 {
+  position: absolute;
+  width: 231px;
+  height: 66px;
+  left: 1040px;
+  top: 1139px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #2c2c2c;
+}
+
+.liberterra-btn {
+  position: absolute;
+  width: 355px;
+  height: 43px;
+  left: 920.5px;
+  top: 1240px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: right;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+.liberterra-btn-mobile {
+  display: none;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 596px;
+  left: 0px;
+  top: 1474px;
+  background: #f2f2f2;
+}
+
+.sophie-logo {
+  position: absolute;
+  width: 385.06px;
+  height: 41.3px;
+  left: 123.16px;
+  top: 1601.49px;
+}
+
+.sophie-text {
+  position: absolute;
+  width: 340px;
+  height: 87px;
+  left: 123.16px;
+  top: 1683px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.sophie-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 66px;
+  left: 123.16px;
+  top: 1791px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.sophie-btn {
+  position: absolute;
+  width: 310px;
+  height: 43px;
+  left: 123.16px;
+  top: 1906px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+.sophie-btn-mobile {
+  display: none;
+}
+
+.sophie-screen {
+  position: absolute;
+  left: 620px;
+  top: 1496.69px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+}
+
+.hollerena-laptop {
+  position: absolute;
+  width: 799px;
+  height: 511px;
+  left: 33px;
+  top: 2184px;
+}
+
+.hollerena-logo {
+  position: absolute;
+  left: 55.85%;
+  right: 8.06%;
+  top: 75.66%;
+  bottom: 18.64%;
+
+  left: 905px;
+  top: 2176px;
+  border-radius: 0px;
+}
+
+.hollerena-text {
+  position: absolute;
+  width: 389px;
+  height: 87px;
+  left: 885px;
+  top: 2353px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  color: #2c2c2c;
+}
+
+.hollerena-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 66px;
+  left: 916px;
+  top: 2465px;
+  padding-left: 95px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #2c2c2c;
+}
+
+.hollerena-btn {
+  position: absolute;
+  width: 365px;
+  height: 43px;
+  left: 910px;
+  top: 2570px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: right;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+/* projects page */
+
+.rectangle-projects {
+  position: absolute;
+  background: #f2f2f2;
+  width: 100%;
+  height: 450px;
+  left: 0px;
+  top: 786px;
+  background-repeat: no-repeat;
+}
+
+.case-studies-text-projects {
+  position: absolute;
+  width: 239px;
+  height: 178px;
+  left: 135px;
+  top: 892.03px;
+  font-family: "Gilroy Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 89px;
+  color: #4f4f4f;
+}
+
+.case-study-icon-2 {
+  position: absolute;
+  left: 75.8%;
+  right: 7.8%;
+  top: 30.18%;
+  bottom: 59.87%;
+  height: 286px;
+  width: 236px;
+  left: 1041px;
+  top: 867px;
+  border-radius: 0px;
+}
+
+.brand-identity {
+  position: absolute;
+  width: 276px;
+  height: 276px;
+  left: 135px;
+  top: 1323px;
+}
+
+.brand-identity-text {
+  position: absolute;
+  width: 257px;
+  height: 178px;
+  left: 1020px;
+  top: 1372px;
+  font-family: "Gilroy Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 89px;
+  text-align: right;
+  color: #4f4f4f;
+}
+
+.rectangle-projects-2 {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  left: 0px;
+  top: 1686px;
+  background: #f2f2f2;
+  background-repeat: no-repeat;
+}
+
+.websites-text {
+  position: absolute;
+  width: 291px;
+  height: 89px;
+  left: 135px;
+  top: 1866px;
+  font-family: "Gilroy Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 89px;
+  color: #4f4f4f;
+}
+
+.websites-icon {
+  position: absolute;
+  width: 287px;
+  height: 286px;
+  left: 990px;
+  top: 1767.5px;
+}
+
+.illustrations-icon {
+  position: absolute;
+  left: 9.34%;
+  right: 70.8%;
+  top: 77.12%;
+  bottom: 12.93%;
+  height: 286px;
+  width: 286px;
+  left: 134.46893310546875px;
+  top: 2218px;
+  border-radius: 0px;
+}
+
+.illustrations-text {
+  position: absolute;
+  width: 387px;
+  height: 178px;
+  left: 866px;
+  top: 2296px;
+  font-family: "Gilroy Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 89px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #4f4f4f;
+}
+
+.case-study-page-mobile-phone {
+  position: absolute;
+  width: 562px;
+  height: 570px;
+  left: 110.5px;
+  top: 833.9px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+}
+
+.case-study-page-liberterra-logo {
+  position: absolute;
+  width: 343px;
+  height: 94px;
+  left: 926.5px;
+  top: 923.9px;
+}
+
+.case-study-page-liberterra-mobile-logo {
+  display: none;
+}
+
+.product-designer {
+  position: absolute;
+  width: 340px;
+  height: 87px;
+  left: 919.5px;
+  top: 1041.9px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #2c2c2c;
+}
+
+.case-study-page-liberterra-text {
+  position: absolute;
+  width: 245px;
+  height: 66px;
+  left: 1020px;
+  top: 1154px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #2c2c2c;
+}
+
+.case-study-page-liberterra-btn {
+  position: absolute;
+  width: 365px;
+  height: 43px;
+  left: 890px;
+  top: 1244.9px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: right;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+
+.case-study-page-liberterra-mobile-btn {
+  display: none;
+}
+
+.hollerena-rectangle {
+  position: absolute;
+  width: 100%;
+  height: 596px;
+  left: 0px;
+  top: 1515.85px;
+  background: #f2f2f2;
+  background-repeat: no-repeat;
+}
+
+.case-studies-hollerena-logo {
+  position: absolute;
+  left: 2.01%;
+  right: 68.89%;
+  top: 65.04%;
+  bottom: 25.99%;
+  height: 212px;
+  width: 419px;
+  left: 29px;
+  top: 1536.90234375px;
+  border-radius: 0px;
+}
+
+.brand-product-designer {
+  position: absolute;
+  width: 409.78px;
+  height: 87px;
+  left: 123px;
+  top: 1701.9px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.case-study-page-hollerena-text {
+  position: absolute;
+  width: 380px;
+  height: 66px;
+  left: 123px;
+  top: 1813.9px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.case-study-page-btn {
+  position: absolute;
+  width: 365px;
+  height: 43px;
+  left: 103px;
+  top: 1904.9px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+
+.case-study-page-hollerena-mobile-btn {
+  display: none;
+}
+
+.case-study-page-hollerena-laptop {
+  position: absolute;
+  left: 460px;
+  top: 1517.9px;
+}
+
+.ese {
+  position: absolute;
+  width: 490px;
+  height: 490px;
+  left: 781.5px;
+  top: 805.24px;
+  z-index: -1;
+}
+
+.brands-page-everblasing-text {
+  position: absolute;
+  width: 340px;
+  height: 174px;
+  left: 168.5px;
+  top: 863.14px;
+  font-family: "Gilroy Medium", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: flex-end;
+  color: #2c2c2c;
+}
+
+.brands-page-everblasing-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 66px;
+  left: 168.5px;
+  top: 1050.44px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2c2c2c;
+}
+
+.brands-page-everblasing-btn {
+  position: absolute;
+  width: 303px;
+  height: 43px;
+  left: 168.5px;
+  top: 1157.66px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+
+.brands-page-everblasing-mobile-btn {
+  display: none;
+}
+
+.brands-page-everblasing-olaa {
+  position: absolute;
+  width: 100%;
+  height: 517.74px;
+  left: 0px;
+  top: 1337.77px;
+  background: #f2f2f2;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.brands-page-everblasing-olaa-logo {
+  position: absolute;
+  width: 490px;
+  height: 490px;
+  left: 168.5px;
+  top: 1351.64px;
+  z-index: -1;
+}
+
+.brands-page-everblasing-olaa-text {
+  position: absolute;
+  width: 340px;
+  height: 58px;
+  padding-left: 240px;
+  left: 931.5px;
+  top: 1475.38px;
+  font-family: "Gilroy Medium", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  color: #2c2c2c;
+  z-index: -1;
+}
+
+.brands-page-everblasing-olaa-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 44px;
+  left: 891.5px;
+  top: 1546.68px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #2c2c2c;
+  z-index: -1;
+}
+
+.brands-page-olaa-btn {
+  position: absolute;
+  width: 303px;
+  height: 43px;
+  left: 1033.5px;
+  top: 1653.66px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+  z-index: -1;
+}
+
+.brands-page-olaa-mobile-btn {
+  display: none;
+}
+
+.brands-page-seth-pixel-logo {
+  position: absolute;
+  width: 490px;
+  height: 406.38px;
+  left: 781.5px;
+  top: 1911.19px;
+  z-index: -1;
+}
+
+.brands-page-seth-pixel-text {
+  position: absolute;
+  width: 340px;
+  height: 58px;
+  left: 168.5px;
+  top: 1938.75px;
+  font-family: "Gilroy Medium", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: flex-end;
+  color: #2c2c2c;
+}
+
+.brands-page-seth-pixel-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 66px;
+  left: 168.5px;
+  top: 2010.05px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2c2c2c;
+}
+
+.brands-page-seth-pixel-btn {
+  position: absolute;
+  width: 303px;
+  height: 43px;
+  left: 168.5px;
+  top: 2117.66px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+  z-index: -1;
+}
+
+.brands-page-seth-mobile-btn {
+  display: none;
+}
+
+.brands-page-tact-editorial-rectangle {
+  position: absolute;
+  width: 100%;
+  height: 517.74px;
+  left: 0px;
+  top: 2373.25px;
+  background: #f2f2f2;
+  z-index: -1;
+}
+
+.brands-page-tact-editorial-logo {
+  position: absolute;
+  width: 668.5px;
+  height: 363.91px;
+  left: 104.26px;
+  top: 2449.98px;
+  z-index: -1;
+}
+
+.brands-page-tact-editorial-text {
+  position: absolute;
+  width: 440px;
+  height: 58px;
+  left: 909px;
+  padding-left: 35px;
+  top: 2519.85px;
+  font-family: "Gilroy Medium", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  color: #2c2c2c;
+  z-index: -1;
+}
+
+.brands-page-tact-editorial-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 66px;
+  left: 869px;
+  top: 2591.15px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #2c2c2c;
+  z-index: -1;
+}
+
+.brands-page-tact-editorial-btn {
+  position: absolute;
+  width: 303px;
+  height: 43px;
+  left: 1010px;
+  top: 2698.66px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+  z-index: -1;
+}
+
+.brands-page-tact-mobile-btn {
+  display: none;
+}
+
+.brands-page-channies-text {
+  position: absolute;
+  width: 340px;
+  height: 58px;
+  left: 168.25px;
+  top: 3028.59px;
+  font-family: "Gilroy Medium", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: flex-end;
+  color: #2c2c2c;
+  z-index: -1;
+}
+
+.brands-page-channies-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 66px;
+  left: 168.25px;
+  top: 3099.89px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2c2c2c;
+  z-index: -1;
+}
+
+.brands-page-channies-btn {
+  position: absolute;
+  width: 303px;
+  height: 43px;
+  left: 168.5px;
+  top: 3206.66px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+  z-index: -1;
+}
+
+.brands-page-channies-mobile-btn {
+  display: none;
+}
+
+.brands-page-channies-logo {
+  position: absolute;
+  width: 490px;
+  height: 303.73px;
+  left: 781.75px;
+  top: 2997.99px;
+  z-index: -1;
+}
+
+.brands-page-broque-rectangle {
+  position: absolute;
+  width: 100%;
+  height: 517.74px;
+  left: 0px;
+  top: 3408.99px;
+  background: #f2f2f2;
+  z-index: -1;
+}
+
+.brands-page-broque-logo {
+  position: absolute;
+  width: 600px;
+  height: 237.34px;
+  left: 141px;
+  top: 3549.18px;
+  z-index: -1;
+}
+
+.brands-page-broque-text {
+  position: absolute;
+  width: 340px;
+  height: 58px;
+  left: 929px;
+  padding-left: 180px;
+  top: 3555.59px;
+  font-family: "Gilroy Medium", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  color: #2c2c2c;
+  z-index: -1;
+}
+
+.brands-page-broque-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 88px;
+  left: 889px;
+  top: 3626.89px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #2c2c2c;
+  z-index: -1;
+}
+
+.brands-page-broque-btn {
+  position: absolute;
+  width: 303px;
+  height: 43px;
+  left: 1031.5px;
+  top: 3733.66px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+  z-index: -1;
+}
+
+.brands-page-broque-mobile-btn {
+  display: none;
+}
+
+.color-me-logo {
+  position: absolute;
+  width: 361.41px;
+  height: 144px;
+  left: 115px;
+  top: 857.9px;
+}
+
+.color-me-text {
+  position: absolute;
+  width: 402.11px;
+  height: 87px;
+  left: 115px;
+  top: 1040.56px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.color-me-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 66px;
+  left: 115px;
+  top: 1152.56px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.website-page-btn {
+  position: absolute;
+  width: 310px;
+  height: 43px;
+  left: 115px;
+  top: 1243.56px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+.website-page-mobile-btn {
+  display: none;
+}
+
+.color-me-screen {
+  position: absolute;
+  width: 721.35px;
+  height: 550.62px;
+  left: 605.32px;
+  top: 826.59px;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.05));
+}
+
+.website-page-sophie-rectangle {
+  position: absolute;
+  width: 100%;
+  height: 596px;
+  left: 0px;
+  top: 1449.9px;
+  background: #f2f2f2;
+}
+
+.website-page-sophie {
+  position: absolute;
+  width: 721.35px;
+  height: 550.62px;
+  left: 34.97px;
+  top: 1472.59px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+}
+
+.website-page-sophie-logo {
+  position: absolute;
+  width: 385.06px;
+  height: 41.3px;
+  left: 876.23px;
+  top: 1577.39px;
+}
+
+.website-page-sophie-text {
+  position: absolute;
+  width: 354.47px;
+  height: 87px;
+  left: 906.82px;
+  top: 1643.9px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #2c2c2c;
+}
+
+.website-page-sophie-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 66px;
+  left: 881.29px;
+  padding-left: 105px;
+  top: 1755.9px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #2c2c2c;
+}
+
+.website-page-sophie-btn {
+  display: block;
+  position: absolute;
+  width: 310px;
+  height: 43px;
+  left: 1009.29px;
+  top: 1846.9px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+
+.website-page-sophie-mobile-btn {
+  display: none;
+}
+
+.website-page-popper-blog-logo {
+  position: absolute;
+  width: 162px;
+  height: 144px;
+  left: 118.6px;
+  top: 2180.4px;
+}
+
+.website-page-popper-blog-text {
+  position: absolute;
+  width: 340px;
+  height: 87px;
+  left: 118.6px;
+  top: 2335.4px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.website-page-popper-blog-text-2 {
+  position: absolute;
+  width: 380px;
+  height: 66px;
+  left: 118.6px;
+  top: 2447.4px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.website-page-popper-blog-btn {
+  position: absolute;
+  width: 310px;
+  height: 43px;
+  left: 110.6px;
+  padding-right: 50px;
+  top: 2538.4px;
+  font-family: "Gilroy Regular", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: right;
+  color: #828282;
+  text-decoration: underline dotted;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 0.15em;
+}
+
+.website-page-popper-mobile-btn {
+  display: none;
+}
+
+.website-page-popper-blog-screen {
+  position: absolute;
+  width: 690px;
+  height: 496px;
+  left: 634.29px;
+  top: 2145.9px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+}
+
+.illustrations-page-keanu {
+  position: absolute;
+  width: 775px;
+  height: 435.94px;
+  left: 104.53px;
+  top: 797.68px;
+  z-index: -1;
+}
+
+.illustrations-page-akame {
+  position: absolute;
+  width: 435.94px;
+  height: 833px;
+  left: 899.53px;
+  top: 797.68px;
+  z-index: -1;
+}
+
+.illustrations-page-stay-home {
+  position: absolute;
+  width: 377.06px;
+  height: 377.06px;
+  left: 104.53px;
+  top: 1253.62px;
+  z-index: -1;
+}
+
+.illustrations-page-sophie {
+  position: absolute;
+  width: 377.06px;
+  height: 377.06px;
+  left: 502.03px;
+  top: 1253.62px;
+  z-index: -1;
+}
+
+.illustrations-page-curfew-rick {
+  position: absolute;
+  width: 435.94px;
+  height: 891.88px;
+  left: 105.95px;
+  top: 1650.68px;
+  z-index: -1;
+}
+
+.illustrations-page-kobe {
+  position: absolute;
+  width: 775px;
+  height: 435.94px;
+  left: 560.47px;
+  top: 1650.68px;
+  z-index: -1;
+}
+
+.tk-bad-boy {
+  position: absolute;
+  width: 387.5px;
+  height: 387.5px;
+  left: 560.47px;
+  top: 2130.84px;
+  z-index: -1;
+}
+
+.tk-bad-boy-2 {
+  position: absolute;
+  width: 387.5px;
+  height: 387.5px;
+  left: 947.97px;
+  top: 2130.84px;
+  z-index: -1;
+}
+
+.illustrations {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+a.lightbox img {
+  position: absolute;
+  /* height: 150px; */
+  /* border: 3px solid white; */
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  /* z-index: 2; */
+  /* margin: 94px 20px 20px 20px; */
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+  position: fixed;
+  top: -100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 0%;
+  max-width: 0%;
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+  display: block;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.lightbox-target:target img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+  top: 0px;
+}
+
+footer {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 91px;
+  left: 0px;
+  top: 2785px;
+}
+
+.case-study-footer {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 91px;
+  left: 0px;
+  top: 2235px;
+}
+
+.brands-footer {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 91px;
+  left: 0px;
+  top: 4050px;
+}
+
+.websiteFooter {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 91px;
+  left: 0px;
+  top: 2700px;
+}
+
+.illustrationFooter {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 91px;
+  left: 0px;
+  top: 2650px;
+}
+
+.contactFooter {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 91px;
+  left: 0px;
+  top: 570px;
+}
+
+.footer-text {
+  position: absolute;
+  display: block;
+  width: 197px;
+  left: 6.01%;
+  right: 80.31%;
+  top: 19.78%;
+  bottom: 52.75%;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2c2c2c;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  left: 2.6%;
+  right: 65.38%;
+  top: 51.65%;
+  bottom: 20.88%;
+}
+
+.behance {
+  position: static;
+  width: 71px;
+  height: 25px;
+  left: 10px;
+  top: 10px;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4111e8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 50px;
+}
+
+.medium {
+  position: static;
+  width: 66px;
+  height: 25px;
+  left: 121px;
+  top: 0px;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2c2c2c;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 50px;
+}
+
+.dribbble {
+  position: static;
+  width: 60px;
+  height: 25px;
+  left: 237px;
+  top: 0px;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ff7dbd;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 50px;
+}
+
+.upwork {
+  position: static;
+  width: 65px;
+  height: 25px;
+  left: 347px;
+  top: 0px;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #00ac8b;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0px 50px;
+}
+
+.copyright-text {
+  position: absolute;
+  left: 75.85%;
+  right: 3.33%;
+  top: 51.65%;
+  bottom: 20.88%;
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2c2c2c;
+}
+
+@media screen and (min-device-width: 1440px) {
+  .container {
+    max-width: 100%;
+    padding: 0 80px;
+    margin: 100px 0;
+  }
+
+  .main-text {
+    position: absolute;
+    width: 859px;
+    height: 472px;
+
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 49px;
+    color: #bdbdbd;
+  }
+
+  .profilePhoto {
+    position: absolute;
+    width: 250px;
+    height: 339px;
+    left: 1091px;
+    top: 200px;
+  }
+  .mobile-logo {
+    display: none;
+  }
+
+  .scrollBtn {
+    position: absolute;
+    width: 230px;
+    height: 29px;
+    left: 620px;
+    top: 700px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #828282;
+  }
+
+  .scroll-btn {
+    position: absolute;
+    width: 201px;
+    height: 29px;
+    left: 634px;
+    top: 700px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #828282;
+  }
+  .liberterra-mobile-logo {
+    display: none;
+  }
+
+  .rectangle-projects {
+    position: absolute;
+    background: #f2f2f2;
+    width: 100%;
+    height: 450px;
+    left: 0px;
+    top: 786px;
+    background-repeat: no-repeat;
+  }
+
+  .case-studies-text-projects {
+    position: absolute;
+    width: 239px;
+    height: 178px;
+    left: 135px;
+    top: 892.03px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 89px;
+    color: #4f4f4f;
+  }
+
+  .case-study-icon-2 {
+    position: absolute;
+    left: 75.8%;
+    right: 7.8%;
+    top: 30.18%;
+    bottom: 59.87%;
+    height: 286.0011291503906px;
+    width: 236.15835571289062px;
+    left: 1091.535888671875px;
+    top: 867.99951171875px;
+    border-radius: 0px;
+  }
+
+  .brand-identity {
+    position: absolute;
+    width: 276px;
+    height: 276px;
+    left: 135px;
+    top: 1323px;
+  }
+
+  .brand-identity-text {
+    position: absolute;
+    width: 257px;
+    height: 178px;
+    left: 1070.69px;
+    top: 1372px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 89px;
+    text-align: right;
+    color: #4f4f4f;
+  }
+
+  .rectangle-projects-2 {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    left: 0px;
+    top: 1686px;
+    background: #f2f2f2;
+    background-repeat: no-repeat;
+  }
+
+  .websites-text {
+    position: absolute;
+    width: 291px;
+    height: 89px;
+    left: 135px;
+    top: 1866px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 89px;
+    color: #4f4f4f;
+  }
+
+  .websites-icon {
+    position: absolute;
+    width: 287px;
+    height: 286px;
+    left: 1040.69px;
+    top: 1767.5px;
+  }
+
+  .illustrations-icon {
+    position: absolute;
+    left: 9.34%;
+    right: 70.8%;
+    top: 77.12%;
+    bottom: 12.93%;
+    height: 286px;
+    width: 286px;
+    left: 134.46893310546875px;
+    top: 2218px;
+    border-radius: 0px;
+  }
+
+  .illustrations-text {
+    position: absolute;
+    width: 387px;
+    height: 178px;
+    left: 916px;
+    top: 2296px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 89px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #4f4f4f;
+  }
+
+  .case-study-page-mobile-phone {
+    position: absolute;
+    width: 562px;
+    height: 570px;
+    left: 110.5px;
+    top: 833.9px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
+
+  .case-study-page-liberterra-logo {
+    position: absolute;
+    width: 343px;
+    height: 94px;
+    left: 986.5px;
+    top: 923.9px;
+  }
+
+  .product-designer {
+    position: absolute;
+    width: 340px;
+    height: 87px;
+    left: 989.5px;
+    top: 1041.9px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-liberterra-text {
+    position: absolute;
+    width: 245px;
+    height: 66px;
+    left: 1090px;
+    top: 1154px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-liberterra-btn {
+    position: absolute;
+    width: 365px;
+    height: 43px;
+    left: 970.5px;
+    top: 1244.9px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: right;
+    color: #828282;
+    text-decoration: underline dotted;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .hollerena-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 596px;
+    left: 0px;
+    top: 1515.85px;
+    background: #f2f2f2;
+    background-repeat: no-repeat;
+  }
+
+  .case-studies-hollerena-logo {
+    position: absolute;
+    left: 2.01%;
+    right: 68.89%;
+    top: 65.04%;
+    bottom: 25.99%;
+    height: 212px;
+    width: 419px;
+    left: 29px;
+    top: 1536.90234375px;
+    border-radius: 0px;
+  }
+
+  .brand-product-designer {
+    position: absolute;
+    width: 409.78px;
+    height: 87px;
+    left: 123px;
+    top: 1701.9px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-hollerena-text {
+    position: absolute;
+    width: 380px;
+    height: 66px;
+    left: 123px;
+    top: 1813.9px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-btn {
+    position: absolute;
+    width: 365px;
+    height: 43px;
+    left: 103px;
+    top: 1904.9px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #828282;
+    text-decoration: underline dotted;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .case-study-page-hollerena-laptop {
+    position: absolute;
+    left: 520px;
+    top: 1517.9px;
+  }
+
+  footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 2785px;
+  }
+
+  .case-study-footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 2235px;
+  }
+
+  .brands-footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 4050px;
+  }
+
+  .websiteFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 2700px;
+  }
+
+  .illustrationFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 2650px;
+  }
+
+  .contactFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: 150px;
+  }
+
+  .footer-text {
+    position: absolute;
+    display: block;
+    width: 197px;
+    left: 6.01%;
+    right: 80.31%;
+    top: 19.78%;
+    bottom: 52.75%;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2c2c2c;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    left: 2.6%;
+    right: 65.38%;
+    top: 51.65%;
+    bottom: 20.88%;
+  }
+
+  .behance {
+    position: static;
+    width: 71px;
+    height: 25px;
+    left: 10px;
+    top: 10px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4111e8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 50px;
+  }
+
+  .medium {
+    position: static;
+    width: 66px;
+    height: 25px;
+    left: 121px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2c2c2c;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 50px;
+  }
+
+  .dribbble {
+    position: static;
+    width: 60px;
+    height: 25px;
+    left: 237px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ff7dbd;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 50px;
+  }
+
+  .upwork {
+    position: static;
+    width: 65px;
+    height: 25px;
+    left: 347px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #00ac8b;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 50px;
+  }
+
+  .copyright-text {
+    position: absolute;
+    left: 75.85%;
+    right: 3.33%;
+    top: 51.65%;
+    bottom: 20.88%;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2c2c2c;
+  }
+
+  .contactFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 520px;
+  }
+}
+@media screen and (max-width: 925px) {
+  .mobile-logo {
+    display: block;
+    position: absolute;
+    left: 50px;
+    right: 87.6%;
+    top: 2.5%;
+    bottom: 22.88%;
+    z-index: 1;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 858px) {
+  .logo {
+    display: none;
+  }
+  .checkbtn {
+    display: block;
+    margin-top: 10px;
+  }
+
+  nav {
+    width: 100%;
+    height: 80px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  nav ul {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2;
+    top: 80px;
+    left: -150%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 80px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: #2c2c2c;
+  }
+
+  #check:checked ~ ul {
+    left: 0px;
+  }
+
+  /* .toggle ul {
+    position: absolute;
+    width: 82.81px;
+    height: 28px;
+    left: 275.19px;
+    top: 186.72px;
+  }
+  .sun {
+    position: absolute;
+    width: 23.83px;
+    height: 23.83px;
+    left: 275.19px;
+    top: -70px;
+  } */
+
+  .profilePhoto {
+    position: absolute;
+    width: 61.64px;
+    height: 80px;
+    left: 50px;
+    top: 162.66px;
+    z-index: -1;
+  }
+
+  /* .btn-toggle {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 332.98px;
+    top: 214.72px;
+    transform: rotate(-180deg);
+  }
+  .moon {
+    position: absolute;
+    width: 19.06px;
+    height: 19.06px;
+    left: 338.94px;
+    top: 190.89px;
+  } */
+
+  /* .container {
+    max-width: 100%;
+    padding: 0 80px;
+    margin: 50px 0;
+  } */
+
+  .main-text {
+    position: absolute;
+    width: 340px;
+    height: 192px;
+    left: 50px;
+    top: 280.83px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    color: #bdbdbd;
+    z-index: -1;
+  }
+
+  .main-text-2 {
+    position: absolute;
+    width: 440px;
+    height: 188px;
+    left: 50px;
+    top: 280.25px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    color: #bdbdbd;
+
+    z-index: -1;
+  }
+
+  .my-work {
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .say-hello {
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .email-address {
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .scrollBtn {
+    position: absolute;
+    width: 113px;
+    height: 16.47px;
+    left: 40.5%;
+
+    top: 584.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+    /* text-align: center; */
+    color: #828282;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+  }
+
+  .scrollBtn img {
+    width: 17.04px;
+    height: 7.67px;
+    margin: 5px;
+  }
+
+  .scroll-btn {
+    position: absolute;
+    width: 93px;
+    height: 16.47px;
+    left: 40.5%;
+    top: 534.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* text-align: center; */
+    color: #828282;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+  }
+
+  .scroll-btn img {
+    width: 17.04px;
+    height: 7.67px;
+  }
+
+  .liberterra-mobile {
+    position: absolute;
+    max-width: 202.99px;
+    height: 205.88px;
+    left: 32%;
+    top: 671px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .liberterra-logo {
+    display: none;
+  }
+
+  .liberterra-mobile-logo {
+    display: block;
+    position: absolute;
+    width: 193.85px;
+    height: 43px;
+    left: 32%;
+    top: 914px;
+  }
+
+  .liberterra-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 32%;
+    top: 977.56px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .liberterra-text-2 {
+    position: absolute;
+    width: 279.86px;
+    height: 33.16px;
+    left: 32%;
+
+    top: 1026.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .liberterra-btn {
+    display: none;
+  }
+  .liberterra-btn img {
+    display: none;
+  }
+
+  .liberterra-btn-mobile {
+    display: block;
+    position: absolute;
+    max-width: 262.07px;
+    height: 23.96px;
+    left: 32%;
+    top: 1085.32px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 1194px;
+    background: #f2f2f2;
+  }
+
+  .sophie-screen {
+    position: absolute;
+    width: 262.88px;
+    height: 220.39px;
+    left: 25%;
+    top: 1224.77px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    align-items: center;
+  }
+
+  .sophie-logo {
+    position: absolute;
+    width: 226.17px;
+    height: 24.26px;
+    left: 27%;
+    top: 1473.97px;
+  }
+
+  .sophie-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 27%;
+    top: 1521.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .sophie-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 27%;
+
+    top: 1569.92px;
+    font-family: "Gilroy", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .sophie-btn {
+    display: none;
+  }
+
+  .sophie-btn-mobile {
+    display: block;
+    position: absolute;
+    max-width: 262.07px;
+    height: 23.96px;
+    left: 27%;
+
+    top: 1629.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .hollerena-laptop {
+    position: absolute;
+    max-width: 321.87px;
+    height: 205.88px;
+    left: 18%;
+
+    top: 1758.54px;
+  }
+
+  .hollerena-logo {
+    position: absolute;
+    bottom: 14.06%;
+    height: 125px;
+    max-width: 247px;
+    left: 27%;
+    top: 1966px;
+    border-radius: 0px;
+    align-items: left;
+  }
+
+  .hollerena-text {
+    position: absolute;
+    max-width: 202.72px;
+    height: 42.59px;
+    left: 27%;
+    top: 2065.1px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-text-2 {
+    position: absolute;
+    max-width: 249.86px;
+    height: 33.16px;
+    left: 8%;
+    top: 2113.69px;
+    font-family: "Gilroy", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-btn {
+    display: none;
+  }
+  .hollerena-btn-mobile {
+    display: block;
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 27%;
+    top: 2172.85px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+    text-align: left;
+  }
+
+  .rectangle-projects {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 700.23px;
+    background: #f2f2f2;
+  }
+
+  .case-study-icon-2 {
+    position: absolute;
+    left: 42.47%;
+
+    bottom: 54.26%;
+    height: 80px;
+    width: 66.05802917480469px;
+
+    top: 730.3818359375px;
+    border-radius: 0px;
+  }
+
+  .case-studies-text-projects {
+    position: absolute;
+    width: 173px;
+    height: 37px;
+    left: 32%;
+    top: 824.9px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .brand-identity {
+    position: absolute;
+    width: 78.99px;
+    height: 80px;
+    left: 42.47%;
+    top: 922px;
+  }
+
+  .brand-identity-text {
+    position: absolute;
+    width: 199px;
+    height: 37px;
+    left: 32%;
+    top: 1016.72px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .rectangle-projects-2 {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 1083.87px;
+  }
+
+  .websites-icon {
+    position: absolute;
+    width: 80.83px;
+    height: 80px;
+    left: 42.47%;
+    top: 1114.02px;
+  }
+
+  .websites-text {
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 39%;
+    top: 1208.54px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .illustrations-icon {
+    position: absolute;
+    left: 42.47%;
+    height: 80px;
+    width: 80px;
+    top: 1306px;
+  }
+
+  .illustrations-text {
+    position: absolute;
+    width: 238px;
+    height: 37px;
+    left: 30%;
+    top: 1400.36px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .case-study-page-mobile-phone {
+    position: absolute;
+    width: 202.99px;
+    height: 205.88px;
+    left: 30%;
+    top: 621px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
+
+  .case-study-page-liberterra-logo {
+    display: none;
+  }
+
+  .case-study-page-liberterra-mobile-logo {
+    position: absolute;
+    display: block;
+    left: 30%;
+    top: 864.3px;
+  }
+
+  .product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 30%;
+    top: 927.56px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 30%;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-btn {
+    display: none;
+  }
+
+  .case-study-page-liberterra-mobile-btn {
+    display: block;
+    position: absolute;
+    width: 229.86px;
+    height: 28.97px;
+    left: 30%;
+    top: 1035.32px;
+
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+  /* .case-study-page-liberterra-mobile-btn img {
+    width: 16.66px;
+    height: 15.18px;
+  } */
+
+  .hollerena-rectangle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 62.48%;
+    bottom: 10.01%;
+    height: 503.767578125px;
+    width: 100%;
+    top: 1144px;
+    border-radius: 0px;
+    background: #f2f2f2;
+  }
+
+  .case-study-page-hollerena-laptop {
+    position: absolute;
+    width: 321.87px;
+    height: 205.88px;
+    left: 20%;
+    top: 1164.77px;
+  }
+
+  .case-studies-hollerena-logo {
+    position: absolute;
+    left: 20.8%;
+
+    top: 74.93%;
+    height: 125px;
+    width: 247px;
+
+    top: 1372px;
+    border-radius: 0px;
+  }
+
+  .brand-product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 30.8%;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-hollerena-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 31%;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-btn {
+    display: none;
+  }
+
+  .case-study-page-hollerena-mobile-btn {
+    display: block;
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 31%;
+    top: 1579.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .ese {
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 29%;
+    top: 621.88px;
+  }
+
+  .brands-page-everblasing-text {
+    position: absolute;
+    width: 102.09px;
+    height: 85.94px;
+    left: 29%;
+    top: 875.78px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-text-2 {
+    position: absolute;
+    width: 162.07px;
+    height: 46.72px;
+    left: 29%;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-btn {
+    display: none;
+  }
+
+  .brands-page-everblasing-mobile-btn {
+    display: block;
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 29%;
+    top: 1042.87px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-everblasing-olaa {
+    position: absolute;
+    width: 100%;
+    height: 510.84px;
+    left: 0px;
+    top: 1136.92px;
+  }
+
+  .brands-page-everblasing-olaa-logo {
+    position: absolute;
+    width: 282.63px;
+    height: 282.63px;
+    left: 20%;
+    top: 1136.92px;
+  }
+
+  .brands-page-everblasing-olaa-text {
+    position: absolute;
+    max-width: 61px;
+    height: 29px;
+    left: -18%;
+    top: 1420px;
+
+    /* Mobile P1 Gilroy M 24 */
+
+    font-family: "Gilroy-Medium" Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* text-align: left;
+    align-items: left; */
+    /* Black */
+
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-olaa-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 30%;
+    top: 1469px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-olaa-btn {
+    display: none;
+  }
+
+  .brands-page-olaa-mobile-btn {
+    display: block;
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 30%;
+    top: 1522px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-seth-pixel-logo {
+    position: absolute;
+    width: 223px;
+    height: 184.94px;
+    left: 30%;
+    top: 1738.04px;
+  }
+
+  .brands-page-seth-pixel-text {
+    position: absolute;
+    width: 112px;
+    height: 28px;
+    left: 30%;
+    top: 1963px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 30%;
+    top: 2010.84px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-btn {
+    display: none;
+  }
+
+  .brands-page-seth-mobile-btn {
+    display: block;
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 30%;
+    top: 2064px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-tact-editorial-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 2231.54px;
+  }
+
+  .brands-page-tact-editorial-logo {
+    position: absolute;
+    width: 406px;
+    height: 221px;
+    left: 10%;
+    top: 2257px;
+  }
+
+  .brands-page-tact-editorial-text {
+    position: absolute;
+    width: 97px;
+    height: 59px;
+    left: 20%;
+    top: 2507px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-editorial-text-2 {
+    position: absolute;
+    width: 179.86px;
+    left: 27%;
+    top: 2585.72px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-editorial-btn {
+    display: none;
+  }
+
+  .brands-page-tact-mobile-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 27.4%;
+    top: 2642px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-channies-logo {
+    position: absolute;
+    left: 20%;
+    top: 70.26%;
+    height: 168px;
+    width: 269px;
+    left: 122px;
+    top: 2815px;
+    border-radius: 0px;
+  }
+
+  .brands-page-channies-text {
+    position: absolute;
+    width: 110px;
+    height: 29px;
+    left: 30%;
+    top: 3051px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 30%;
+    top: 3100.21px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-btn {
+    display: none;
+  }
+
+  .brands-page-channies-mobile-btn {
+    display: block;
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 30%;
+    top: 3169px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-broque-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 3319.07px;
+    background: #f2f2f2;
+  }
+
+  .brands-page-broque-logo {
+    position: absolute;
+    width: 286.97px;
+    height: 113.52px;
+    left: 20%;
+    top: 3392.73px;
+  }
+
+  .brands-page-broque-text {
+    position: absolute;
+    width: 85px;
+    height: 29px;
+    left: 1%;
+    top: 3595px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-broque-btn {
+    display: none;
+  }
+
+  .brands-page-broque-mobile-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 37%;
+    top: 3712px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+    text-align: left;
+  }
+
+  .brands-page-broque-text-2 {
+    display: block;
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 37%;
+    top: 3643.97px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .color-me-screen {
+    position: absolute;
+    width: 276.28px;
+    height: 210.89px;
+    left: 25%;
+    top: 608.48px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .color-me-logo {
+    position: absolute;
+    max-width: 184.87px;
+    height: 73.66px;
+    left: 30%;
+    top: 858.83px;
+  }
+
+  .color-me-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 30%;
+    top: 955.49px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .color-me-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 30%;
+    top: 1004.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .website-page-btn {
+    display: none;
+  }
+
+  .website-page-mobile-btn {
+    display: block;
+    position: absolute;
+    width: 238px;
+    height: 24px;
+    left: 30%;
+    top: 1063px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .website-page-mobile-btn img {
+    margin: 5px;
+  }
+
+  .website-page-sophie-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 1144px;
+    background: #f2f2f2;
+  }
+
+  .website-page-sophie {
+    position: absolute;
+    width: 262.88px;
+    height: 220.39px;
+    left: 25%;
+    top: 1164.77px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-sophie-logo {
+    position: absolute;
+    width: 226.17px;
+    height: 24.26px;
+    left: 27%;
+    top: 1423.97px;
+  }
+
+  .website-page-sophie-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 27%;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-text-2 {
+    position: absolute;
+    width: 279.86px;
+    height: 33.16px;
+    left: 6%;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-btn {
+    display: none;
+  }
+
+  .website-page-sophie-mobile-btn {
+    display: block;
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 27%;
+    top: 1579px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .website-page-popper-blog-screen {
+    position: absolute;
+    width: 286.33px;
+    height: 205.83px;
+    left: 20%;
+    top: 1708.54px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-popper-blog-logo {
+    position: absolute;
+    width: 95.74px;
+    height: 85.1px;
+    left: 40%;
+    top: 1953.36px;
+  }
+
+  .website-page-popper-blog-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 30%;
+    top: 2044.47px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-blog-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 30%;
+    top: 2093.06px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-blog-btn {
+    display: none;
+  }
+
+  .website-page-popper-mobile-btn {
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    left: 30%;
+    top: 2152px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .illustrations-page-sophie {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 20%;
+    top: 600.23px;
+  }
+
+  .tk-bad-boy {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 20%;
+    top: 941.36px;
+  }
+
+  .tk-bad-boy-2 {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 20%;
+    top: 1242.49px;
+  }
+
+  .illustrations-page-akame {
+    position: absolute;
+    width: 301.13px;
+    height: 575.4px;
+    left: 20%;
+    top: 1583.62px;
+  }
+
+  .illustrations-page-keanu {
+    position: absolute;
+    width: 301.13px;
+    height: 169.38px;
+    left: 20%;
+    top: 2199.03px;
+  }
+
+  .illustrations-page-kobe {
+    position: absolute;
+    width: 301.13px;
+    height: 169.38px;
+    left: 20%;
+    top: 2408.41px;
+  }
+
+  .illustrations-page-curfew-rick {
+    position: absolute;
+    width: 301.13px;
+    height: 616.08px;
+    left: 20%;
+    top: 2617.79px;
+  }
+
+  .illustrations-page-stay-home {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 20%;
+    top: 3273.87px;
+  }
+
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 91px;
+    left: 0;
+    top: 2350px;
+    background-color: white;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .websiteFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0;
+    margin-top: -400px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .illustrationFooter {
+    position: absolute;
+    width: 100%;
+    height: 91px;
+    left: 0;
+    margin-top: 1050px;
+    background-color: white;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .brands-footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -150px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+  .case-study-footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -500px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .ProjectFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 1550px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .contactFooter {
+    position: absolute;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: 190px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .footer-text {
+    position: absolute;
+    left: 6.4%;
+    right: 69.2%;
+    top: 29.34%;
+    bottom: 50.83%;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    left: 4.4%;
+    right: 50%;
+    top: 54.13%;
+    bottom: 26.03%;
+  }
+
+  .behance {
+    position: static;
+    width: 36px;
+    height: 12px;
+    left: 0px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #4111e8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .medium {
+    position: static;
+    width: 33px;
+    height: 12px;
+    left: 49px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #2c2c2c;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .dribbble {
+    position: static;
+    width: 30px;
+    height: 12px;
+    left: 95px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #ff7dbd;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .upwork {
+    position: static;
+    width: 33px;
+    height: 12px;
+    left: 138px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #00ac8b;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .copyright-text {
+    position: absolute;
+    left: 21.06%;
+    right: 2.68%;
+    top: 54.13%;
+    bottom: 26.03%;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: right;
+    color: #2c2c2c;
+  }
+}
+@media screen and (max-width: 479px) {
+  .logo {
+    position: absolute;
+    left: -5.06%;
+    right: 87.6%;
+    top: 0%;
+    bottom: 22.88%;
+  }
+  nav {
+    width: 100%;
+    height: 80px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .profilePhoto {
+    position: absolute;
+    width: 61.64px;
+    height: 80px;
+    left: 30px;
+    top: 162.66px;
+  }
+  .main-text {
+    position: absolute;
+    width: 300px;
+    height: 152px;
+    left: 30px;
+    top: 280.83px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    color: #bdbdbd;
+  }
+
+  .main-text-2 {
+    position: absolute;
+    width: 315.58px;
+    height: 238px;
+    left: 26.5px;
+    top: 281.25px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 34px;
+    color: #bdbdbd;
+  }
+  .scrollBtn {
+    position: absolute;
+    width: 113px;
+    height: 16.47px;
+    left: 150px;
+    top: 564.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #828282;
+  }
+
+  .scroll-btn {
+    position: absolute;
+    width: 113px;
+    height: 16.47px;
+    left: 151px;
+    top: 534.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #828282;
+  }
+
+  .scroll-btn img {
+    margin: 5px;
+  }
+
+  .liberterra-mobile {
+    position: absolute;
+    width: 202.99px;
+    height: 205.88px;
+    left: 25%;
+    top: 671px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
+
+  .liberterra-mobile-logo {
+    position: absolute;
+    width: 193.85px;
+    height: 43px;
+    left: 25%;
+    top: 914px;
+  }
+
+  .liberterra-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 25%;
+    top: 977.56px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .liberterra-text-2 {
+    position: absolute;
+    width: 279.86px;
+    height: 33.16px;
+    left: 13.5%;
+    padding-left: 50px;
+    top: 1026.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .liberterra-btn-mobile {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 25%;
+    top: 1085.32px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 1194px;
+    background: #f2f2f2;
+  }
+
+  .sophie-screen {
+    position: absolute;
+    width: 262.88px;
+    height: 220.39px;
+    left: 76px;
+    top: 1224.77px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .sophie-logo {
+    position: absolute;
+    width: 226.17px;
+    height: 24.26px;
+    left: 101.58px;
+    top: 1473.97px;
+  }
+
+  .sophie-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 101.58px;
+    top: 1521.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .sophie-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 101.58px;
+    top: 1569.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .sophie-btn-mobile {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 25%;
+    top: 1629.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .hollerena-laptop {
+    position: absolute;
+    width: 321.87px;
+    height: 205.88px;
+    left: 46.56px;
+    top: 1758.54px;
+  }
+
+  .hollerena-logo {
+    position: absolute;
+    left: 9.73%;
+    right: 24.4%;
+    top: 80.67%;
+    bottom: 14.06%;
+    height: 125px;
+    width: 247px;
+    left: 56px;
+    top: 1966px;
+    border-radius: 0px;
+  }
+
+  .hollerena-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 111.83px;
+    top: 2065.1px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-text-2 {
+    position: absolute;
+    width: 249.86px;
+    height: 33.16px;
+    left: 17.83px;
+    top: 2113.69px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-btn-mobile {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 27%;
+    top: 2152.85px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .rectangle-projects {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 700.23px;
+    background: #f2f2f2;
+  }
+
+  .case-study-icon-2 {
+    position: absolute;
+    left: 42.47%;
+    right: 39.91%;
+    top: 40.59%;
+    bottom: 54.26%;
+    height: 80px;
+    width: 66.05802917480469px;
+    left: 179px;
+    top: 730.3818359375px;
+    border-radius: 0px;
+  }
+
+  .case-studies-text-projects {
+    position: absolute;
+    width: 173px;
+    height: 37px;
+    left: 121px;
+    top: 824.9px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .brand-identity {
+    position: absolute;
+    width: 78.99px;
+    height: 80px;
+    left: 168px;
+    top: 922px;
+  }
+
+  .brand-identity-text {
+    position: absolute;
+    width: 199px;
+    height: 37px;
+    left: 108px;
+    top: 1016.72px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .rectangle-projects-2 {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 1083.87px;
+  }
+
+  .websites-icon {
+    position: absolute;
+    width: 80.83px;
+    height: 80px;
+    left: 167.08px;
+    top: 1114.02px;
+  }
+
+  .websites-text {
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 146px;
+    top: 1208.54px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .illustrations-icon {
+    position: absolute;
+    left: 40.53%;
+    right: 38.13%;
+    top: 77.66%;
+    bottom: 17.19%;
+    height: 80px;
+    width: 80px;
+    left: 172px;
+    top: 1306px;
+    border-radius: 0px;
+  }
+
+  .illustrations-text {
+    position: absolute;
+    width: 238px;
+    height: 37px;
+    left: 88px;
+    top: 1400.36px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .case-study-page-mobile-phone {
+    position: absolute;
+    width: 202.99px;
+    height: 205.88px;
+    left: 106px;
+    top: 621px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
+
+  .case-study-page-liberterra-mobile-logo {
+    position: absolute;
+    width: 193.7px;
+    height: 43.13px;
+    left: 110.65px;
+    top: 864.3px;
+  }
+
+  .product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 110.65px;
+    top: 927.56px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 110.65px;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-mobile-btn {
+    position: absolute;
+    width: 229.86px;
+    height: 28.97px;
+    left: 110.65px;
+    top: 1035.32px;
+
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .hollerena-rectangle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 62.48%;
+    bottom: 10.01%;
+    height: 503.767578125px;
+    width: 100%;
+    top: 1144px;
+    border-radius: 0px;
+    background: #f2f2f2;
+  }
+
+  .case-study-page-hollerena-laptop {
+    position: absolute;
+    width: 321.87px;
+    height: 205.88px;
+    left: 46.56px;
+    top: 1164.77px;
+  }
+
+  .case-studies-hollerena-logo {
+    position: absolute;
+    left: 10.8%;
+    right: 23.33%;
+    top: 74.93%;
+    bottom: 18.24%;
+    height: 125px;
+    width: 247px;
+    left: 60.5px;
+    top: 1372px;
+    border-radius: 0px;
+  }
+
+  .brand-product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 111.83px;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-hollerena-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 111.83px;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-hollerena-mobile-btn {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 111.83px;
+    top: 1559.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .ese {
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 105px;
+    top: 621.88px;
+  }
+
+  .brands-page-everblasing-text {
+    position: absolute;
+    width: 102.09px;
+    height: 85.94px;
+    left: 106.46px;
+    top: 875.78px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-text-2 {
+    position: absolute;
+    width: 162.07px;
+    height: 46.72px;
+    left: 106.46px;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-mobile-btn {
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 106.46px;
+    top: 1042.87px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-everblasing-olaa {
+    position: absolute;
+    width: 100%;
+    height: 510.84px;
+    left: 0px;
+    top: 1136.92px;
+  }
+
+  .brands-page-everblasing-olaa-logo {
+    position: absolute;
+    width: 282.63px;
+    height: 282.63px;
+    left: 66px;
+    top: 1136.92px;
+  }
+
+  .brands-page-everblasing-olaa-text {
+    position: absolute;
+    width: 61px;
+    height: 29px;
+    left: -136px;
+    top: 1420px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-everblasing-olaa-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 106px;
+    top: 1469px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-olaa-mobile-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 106px;
+    top: 1522px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-seth-pixel-logo {
+    position: absolute;
+    width: 223px;
+    height: 184.94px;
+    left: 96px;
+    top: 1738.04px;
+  }
+
+  .brands-page-seth-pixel-text {
+    position: absolute;
+    width: 112px;
+    height: 28px;
+    left: 106.5px;
+    top: 1963px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 106px;
+    top: 2010.84px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-mobile-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 106px;
+    top: 2064px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-tact-editorial-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 2231.54px;
+  }
+
+  .brands-page-tact-editorial-logo {
+    position: absolute;
+    width: 406px;
+    height: 221px;
+    left: 4.5px;
+    top: 2257px;
+  }
+
+  .brands-page-tact-editorial-text {
+    position: absolute;
+    width: 97px;
+    height: 59px;
+    left: 70px;
+    top: 2507px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-editorial-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 36.28px;
+    left: 106.46px;
+    top: 2585.72px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-mobile-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 106px;
+    top: 2642px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-channies-logo {
+    position: absolute;
+    left: 14.13%;
+    right: 14.13%;
+    top: 70.26%;
+    bottom: 25.54%;
+    height: 168px;
+    width: 269px;
+    left: 72px;
+    top: 2815px;
+    border-radius: 0px;
+  }
+
+  .brands-page-channies-text {
+    position: absolute;
+    width: 110px;
+    height: 29px;
+    left: 106px;
+    top: 3051px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 106px;
+    top: 3100.21px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-mobile-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 106px;
+    top: 3169px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-broque-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 3319.07px;
+    background: #f2f2f2;
+  }
+
+  .brands-page-broque-logo {
+    position: absolute;
+    width: 286.97px;
+    height: 113.52px;
+    left: 64px;
+    top: 3392.73px;
+  }
+
+  .brands-page-broque-text {
+    position: absolute;
+    width: 85px;
+    height: 29px;
+    left: -74px;
+    top: 3595px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-mobile-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 106.5px;
+    top: 3712px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-broque-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 106.46px;
+    top: 3643.97px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .color-me-screen {
+    position: absolute;
+    width: 276.28px;
+    height: 210.89px;
+    left: 79.86px;
+    top: 608.48px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .color-me-logo {
+    position: absolute;
+    width: 184.87px;
+    height: 73.66px;
+    left: 120.65px;
+    top: 858.83px;
+  }
+
+  .color-me-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 121.83px;
+    top: 955.49px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .color-me-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 121.83px;
+    top: 1004.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .website-page-mobile-btn {
+    position: absolute;
+    width: 238px;
+    height: 24px;
+    left: 121.5px;
+    top: 1063px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .website-page-sophie-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 1144px;
+    background: #f2f2f2;
+  }
+
+  .website-page-sophie {
+    position: absolute;
+    width: 262.88px;
+    height: 220.39px;
+    left: 76.06px;
+    top: 1164.77px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-sophie-logo {
+    position: absolute;
+    width: 226.17px;
+    height: 24.26px;
+    left: 101.58px;
+    top: 1423.97px;
+  }
+
+  .website-page-sophie-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 101.58px;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-text-2 {
+    position: absolute;
+    width: 279.86px;
+    height: 33.16px;
+    left: -4px;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-mobile-btn {
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 101.5px;
+    top: 1559px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .website-page-popper-blog-screen {
+    position: absolute;
+    width: 286.33px;
+    height: 205.83px;
+    left: 20%;
+    top: 1708.54px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-popper-blog-logo {
+    position: absolute;
+    width: 95.74px;
+    height: 85.1px;
+    left: 30%;
+    top: 1953.36px;
+  }
+
+  .website-page-popper-blog-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 20%;
+    top: 2044.47px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-blog-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 20%;
+    top: 2093.06px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-mobile-btn {
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    left: 85px;
+    top: 2132px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .illustrations-page-sophie {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 56.94px;
+    top: 600.23px;
+  }
+
+  .tk-bad-boy {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 56.93px;
+    top: 941.36px;
+  }
+
+  .tk-bad-boy-2 {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 56.93px;
+    top: 1242.49px;
+  }
+
+  .illustrations-page-akame {
+    position: absolute;
+    width: 301.13px;
+    height: 575.4px;
+    left: 56.93px;
+    top: 1583.62px;
+  }
+
+  .illustrations-page-keanu {
+    position: absolute;
+    width: 301.13px;
+    height: 169.38px;
+    left: 56.94px;
+    top: 2199.03px;
+  }
+
+  .illustrations-page-kobe {
+    position: absolute;
+    width: 301.13px;
+    height: 169.38px;
+    left: 56.94px;
+    top: 2408.41px;
+  }
+
+  .illustrations-page-curfew-rick {
+    position: absolute;
+    width: 301.13px;
+    height: 616.08px;
+    left: 56.94px;
+    top: 2617.79px;
+  }
+
+  .illustrations-page-stay-home {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 56.94px;
+    top: 3273.87px;
+  }
+
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 91px;
+    left: 0;
+    margin-top: -100px;
+    background-color: white;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .websiteFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -400px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .brands-footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -150px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .ProjectFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -50px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .contactFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    top: 600px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .footer-text {
+    position: absolute;
+    left: 6.7%;
+
+    top: 20.34%;
+
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    left: 4.4%;
+    right: 50%;
+    top: 34.13%;
+
+    height: 12px;
+    width: 171px;
+    left: 16.5px;
+
+    border-radius: 0px;
+  }
+
+  .behance {
+    position: static;
+    width: 36px;
+    height: 12px;
+    left: 0px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #4111e8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+  }
+
+  .medium {
+    position: static;
+    width: 33px;
+    height: 12px;
+    left: 49px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #2c2c2c;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+
+  .dribbble {
+    position: static;
+    width: 30px;
+    height: 12px;
+    left: 95px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #ff7dbd;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+
+  .upwork {
+    position: static;
+    width: 33px;
+    height: 12px;
+    left: 138px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #00ac8b;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+
+  .copyright-text {
+    position: absolute;
+    left: 61.06%;
+    right: 2.68%;
+    top: 40%;
+
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: right;
+    color: #2c2c2c;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main-text-2 {
+    position: absolute;
+    width: 315.58px;
+    height: 238px;
+    left: 26.5px;
+    top: 281.25px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 34px;
+    color: #bdbdbd;
+  }
+  .scrollBtn {
+    position: absolute;
+    width: 113px;
+    height: 16.47px;
+    left: 130px;
+    top: 564.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #828282;
+  }
+
+  .scroll-btn {
+    position: absolute;
+    width: 113px;
+    height: 16.47px;
+    left: 131px;
+    top: 534.1px;
+    font-family: "Gilroy Light", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #828282;
+  }
+  .liberterra-mobile {
+    position: absolute;
+    width: 202.99px;
+    height: 205.88px;
+    left: 86px;
+    top: 671px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
+
+  .liberterra-logo {
+    position: absolute;
+    width: 193.85px;
+    height: 43px;
+    left: 90px;
+    top: 914px;
+  }
+
+  .liberterra-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 90px;
+    top: 977.56px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .liberterra-text-2 {
+    position: absolute;
+    width: 279.86px;
+    height: 33.16px;
+    left: 40px;
+    padding-left: 50px;
+    top: 1026.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .liberterra-btn-mobile {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 90px;
+    top: 1085.32px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 1194px;
+    background: #f2f2f2;
+  }
+
+  .sophie-screen {
+    position: absolute;
+    width: 262.88px;
+    height: 220.39px;
+    left: 56px;
+    top: 1224.77px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .sophie-logo {
+    position: absolute;
+    width: 226.17px;
+    height: 24.26px;
+    left: 81.58px;
+    top: 1473.97px;
+  }
+
+  .sophie-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 81.58px;
+    top: 1521.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .sophie-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 81.58px;
+    top: 1569.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .sophie-btn-mobile {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 81.58px;
+    top: 1629.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .hollerena-laptop {
+    position: absolute;
+    width: 321.87px;
+    height: 205.88px;
+    left: 26.56px;
+    top: 1758.54px;
+  }
+
+  .hollerena-logo {
+    position: absolute;
+    left: 9.73%;
+    right: 24.4%;
+    top: 80.67%;
+    bottom: 14.06%;
+    height: 125px;
+    width: 247px;
+    left: 36px;
+    top: 1966px;
+    border-radius: 0px;
+  }
+
+  .hollerena-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 91.83px;
+    top: 2065.1px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-text-2 {
+    position: absolute;
+    width: 249.86px;
+    height: 33.16px;
+    left: 0px;
+    top: 2113.69px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .hollerena-btn-mobile {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 95px;
+    top: 2172.85px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .rectangle-projects {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 700.23px;
+    background: #f2f2f2;
+  }
+
+  .case-study-icon-2 {
+    position: absolute;
+    left: 42.47%;
+    right: 39.91%;
+    top: 40.59%;
+    bottom: 54.26%;
+    height: 80px;
+    width: 66.05802917480469px;
+    left: 159px;
+    top: 730.3818359375px;
+    border-radius: 0px;
+  }
+
+  .case-studies-text-projects {
+    position: absolute;
+    width: 173px;
+    height: 37px;
+    left: 101px;
+    top: 824.9px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .brand-identity {
+    position: absolute;
+    width: 78.99px;
+    height: 80px;
+    left: 148px;
+    top: 922px;
+  }
+
+  .brand-identity-text {
+    position: absolute;
+    width: 199px;
+    height: 37px;
+    left: 88px;
+    top: 1016.72px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .rectangle-projects-2 {
+    position: absolute;
+    width: 100%;
+    height: 191.82px;
+    left: 0px;
+    top: 1083.87px;
+  }
+
+  .websites-icon {
+    position: absolute;
+    width: 80.83px;
+    height: 80px;
+    left: 147.08px;
+    top: 1114.02px;
+  }
+
+  .websites-text {
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 126px;
+    top: 1208.54px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .illustrations-icon {
+    position: absolute;
+    left: 40.53%;
+    right: 38.13%;
+    top: 77.66%;
+    bottom: 17.19%;
+    height: 80px;
+    width: 80px;
+    left: 152px;
+    top: 1306px;
+    border-radius: 0px;
+  }
+
+  .illustrations-text {
+    position: absolute;
+    width: 238px;
+    height: 37px;
+    left: 68px;
+    top: 1400.36px;
+    font-family: "Gilroy Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4f4f4f;
+  }
+
+  .case-study-page-mobile-phone {
+    position: absolute;
+    width: 202.99px;
+    height: 205.88px;
+    left: 86px;
+    top: 621px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  }
+
+  .case-study-page-liberterra-mobile-logo {
+    position: absolute;
+    width: 193.7px;
+    height: 43.13px;
+    left: 90.65px;
+    top: 864.3px;
+  }
+
+  .product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 90.65px;
+    top: 927.56px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 90.65px;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .case-study-page-liberterra-mobile-btn {
+    position: absolute;
+    width: 179.86px;
+    height: 28.97px;
+    left: 90.65px;
+    top: 1035.32px;
+    width: 262.07px;
+    height: 23.96px;
+
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .hollerena-rectangle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 62.48%;
+    bottom: 10.01%;
+    height: 503.767578125px;
+    width: 100%;
+    top: 1144px;
+    border-radius: 0px;
+    background: #f2f2f2;
+  }
+
+  .case-study-page-hollerena-laptop {
+    position: absolute;
+    width: 321.87px;
+    height: 205.88px;
+    left: 26.56px;
+    top: 1164.77px;
+  }
+
+  .case-studies-hollerena-logo {
+    position: absolute;
+    left: 10.8%;
+    right: 23.33%;
+    top: 74.93%;
+    bottom: 18.24%;
+    height: 125px;
+    width: 247px;
+    left: 40.5px;
+    top: 1372px;
+    border-radius: 0px;
+  }
+
+  .brand-product-designer {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 91.83px;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-hollerena-text {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 91.83px;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .case-study-page-hollerena-mobile-btn {
+    position: absolute;
+    width: 262.07px;
+    height: 23.96px;
+    left: 91.83px;
+    top: 1559.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .ese {
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 85px;
+    top: 621.88px;
+  }
+
+  .brands-page-everblasing-text {
+    position: absolute;
+    width: 102.09px;
+    height: 85.94px;
+    left: 86.46px;
+    top: 875.78px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-text-2 {
+    position: absolute;
+    width: 162.07px;
+    height: 46.72px;
+    left: 86.46px;
+    top: 976.16px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-everblasing-mobile-btn {
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 86.46px;
+    top: 1042.87px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-everblasing-olaa {
+    position: absolute;
+    width: 100%;
+    height: 510.84px;
+    left: 0px;
+    top: 1136.92px;
+    z-index: -1;
+  }
+
+  .brands-page-everblasing-olaa-logo {
+    position: absolute;
+    width: 282.63px;
+    height: 282.63px;
+    left: 46px;
+    top: 1136.92px;
+    z-index: -1;
+  }
+
+  .brands-page-everblasing-olaa-text {
+    position: absolute;
+    width: 61px;
+    height: 29px;
+    left: -156px;
+    top: 1420px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+    z-index: -1;
+  }
+
+  .brands-page-everblasing-olaa-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 86px;
+    top: 1469px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+    z-index: -1;
+  }
+
+  .brands-page-olaa-mobile-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 86px;
+    top: 1522px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-seth-pixel-logo {
+    position: absolute;
+    width: 223px;
+    height: 184.94px;
+    left: 76px;
+    top: 1738.04px;
+  }
+
+  .brands-page-seth-pixel-text {
+    position: absolute;
+    width: 112px;
+    height: 28px;
+    left: 86.5px;
+    top: 1963px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-pixel-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 86px;
+    top: 2010.84px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-seth-mobile-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 86px;
+    top: 2064px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-tact-editorial-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 2231.54px;
+  }
+
+  .brands-page-tact-editorial-logo {
+    position: absolute;
+    width: 406px;
+    height: 221px;
+    left: -10px;
+    top: 2257px;
+  }
+
+  .brands-page-tact-editorial-text {
+    position: absolute;
+    width: 97px;
+    height: 59px;
+    left: 50px;
+    top: 2507px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-editorial-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 36.28px;
+    left: 86.46px;
+    top: 2585.72px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .brands-page-tact-mobile-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 86px;
+    top: 2642px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-channies-logo {
+    position: absolute;
+    left: 14.13%;
+    right: 14.13%;
+    top: 70.26%;
+    bottom: 25.54%;
+    height: 168px;
+    width: 269px;
+    left: 52px;
+    top: 2815px;
+    border-radius: 0px;
+  }
+
+  .brands-page-channies-text {
+    position: absolute;
+    width: 110px;
+    height: 29px;
+    left: 86px;
+    top: 3051px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 86px;
+    top: 3100.21px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-channies-mobile-btn {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    left: 86px;
+    top: 3169px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-broque-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 3319.07px;
+    background: #f2f2f2;
+  }
+
+  .brands-page-broque-logo {
+    position: absolute;
+    width: 286.97px;
+    height: 113.52px;
+    left: 44px;
+    top: 3392.73px;
+  }
+
+  .brands-page-broque-text {
+    position: absolute;
+    width: 85px;
+    height: 29px;
+    left: -94px;
+    top: 3595px;
+    font-family: "Gilroy Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2c2c2c;
+  }
+
+  .brands-page-broque-mobile-btn {
+    position: absolute;
+    width: 179px;
+    height: 24px;
+    left: 86.5px;
+    top: 3712px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .brands-page-broque-text-2 {
+    position: absolute;
+    width: 149.72px;
+    height: 48.37px;
+    left: 86.46px;
+    top: 3643.97px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .color-me-screen {
+    position: absolute;
+    width: 276.28px;
+    height: 210.89px;
+    left: 59.86px;
+    top: 608.48px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .color-me-logo {
+    position: absolute;
+    width: 184.87px;
+    height: 73.66px;
+    left: 100.65px;
+    top: 858.83px;
+  }
+
+  .color-me-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 101.83px;
+    top: 955.49px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .color-me-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 101.83px;
+    top: 1004.08px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+  }
+
+  .website-page-mobile-btn {
+    position: absolute;
+    width: 238px;
+    height: 24px;
+    left: 101.5px;
+    top: 1063px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #2c2c2c;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .website-page-sophie-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 503.77px;
+    left: 0px;
+    top: 1144px;
+    background: #f2f2f2;
+  }
+
+  .website-page-sophie {
+    position: absolute;
+    width: 262.88px;
+    height: 220.39px;
+    left: 56.06px;
+    top: 1164.77px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-sophie-logo {
+    position: absolute;
+    width: 226.17px;
+    height: 24.26px;
+    left: 81.58px;
+    top: 1423.97px;
+  }
+
+  .website-page-sophie-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 81.58px;
+    top: 1471.33px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-text-2 {
+    position: absolute;
+    width: 279.86px;
+    height: 33.16px;
+    left: -24px;
+    top: 1519.92px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+    text-align: left;
+  }
+
+  .website-page-sophie-mobile-btn {
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 81.5px;
+    top: 1559px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .website-page-popper-blog-screen {
+    position: absolute;
+    width: 286.33px;
+    height: 205.83px;
+    left: 44.12px;
+    top: 1708.54px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  }
+
+  .website-page-popper-blog-logo {
+    position: absolute;
+    width: 95.74px;
+    height: 85.1px;
+    left: 149.73px;
+    top: 1953.36px;
+  }
+
+  .website-page-popper-blog-text {
+    position: absolute;
+    width: 202.72px;
+    height: 42.59px;
+    left: 101.83px;
+    top: 2044.47px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-blog-text-2 {
+    position: absolute;
+    width: 179.86px;
+    height: 33.16px;
+    left: 101.83px;
+    top: 2093.06px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .website-page-popper-mobile-btn {
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    left: 101px;
+    top: 2132px;
+    font-family: "Gilroy Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+  }
+
+  .illustrations-page-sophie {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 36.94px;
+    top: 600.23px;
+  }
+
+  .tk-bad-boy {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 36.93px;
+    top: 941.36px;
+  }
+
+  .tk-bad-boy-2 {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 36.93px;
+    top: 1242.49px;
+  }
+
+  .illustrations-page-akame {
+    position: absolute;
+    width: 301.13px;
+    height: 575.4px;
+    left: 36.93px;
+    top: 1583.62px;
+  }
+
+  .illustrations-page-keanu {
+    position: absolute;
+    width: 301.13px;
+    height: 169.38px;
+    left: 36.94px;
+    top: 2199.03px;
+  }
+
+  .illustrations-page-kobe {
+    position: absolute;
+    width: 301.13px;
+    height: 169.38px;
+    left: 36.94px;
+    top: 2408.41px;
+  }
+
+  .illustrations-page-curfew-rick {
+    position: absolute;
+    width: 301.13px;
+    height: 616.08px;
+    left: 36.94px;
+    top: 2617.79px;
+  }
+
+  .illustrations-page-stay-home {
+    position: absolute;
+    width: 301.13px;
+    height: 301.13px;
+    left: 36.94px;
+    top: 3273.87px;
+  }
+
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 91px;
+    left: 0;
+    margin-top: -100px;
+    background-color: white;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .ProjectFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -70px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .websiteFooter {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 91px;
+    left: 0px;
+    margin-top: -400px;
+    filter: drop-shadow(6px 4px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  .footer-text {
+    position: absolute;
+    left: 5%;
+
+    top: 24%;
+
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #2c2c2c;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    left: 4%;
+
+    top: 45%;
+    bottom: 26.03%;
+    height: 12px;
+    width: 171px;
+
+    border-radius: 0px;
+  }
+
+  .behance {
+    position: static;
+    width: 36px;
+    height: 12px;
+    left: 0px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #4111e8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+  }
+
+  .medium {
+    position: static;
+    width: 33px;
+    height: 12px;
+    left: 49px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #2c2c2c;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+  }
+
+  .dribbble {
+    position: static;
+    width: 30px;
+    height: 12px;
+    left: 95px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #ff7dbd;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 4px;
+  }
+
+  .upwork {
+    position: static;
+    width: 33px;
+    height: 12px;
+    left: 138px;
+    top: 0px;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #00ac8b;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 4px;
+  }
+
+  .copyright-text {
+    position: absolute;
+    left: 58%;
+    width: 150px;
+    top: 50.13%;
+    bottom: 26.03%;
+    font-family: "Nunito Semi Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 10px;
+    text-align: right;
+    color: #2c2c2c;
+  }
+}
+
+/* sass area */
+.gallery-lightboxes .image-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0ms ease-in-out;
+  transition: opacity 0ms ease-in-out;
+}
+
+.gallery-lightboxes .image-lightbox:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.gallery-lightboxes .image-lightbox:target .image-lightbox-wrapper {
+  opacity: 1;
+  -webkit-transform: scale(1, 1) translateY(0);
+  transform: scale(1, 1) translateY(0);
+}
+
+.gallery-lightboxes .image-lightbox .image-lightbox-wrapper {
+  -webkit-transform: scale(0.95, 0.95) translateY(-30px);
+  transform: scale(0.95, 0.95) translateY(-30px);
+  -webkit-transition: opacity 500ms ease-in-out,
+    -webkit-transform 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out,
+    -webkit-transform 500ms ease-in-out;
+  opacity: 0;
+  margin: 1em auto;
+  max-width: 75%;
+  padding: 0.5em;
+  display: inline-block;
+  background: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+.gallery-lightboxes .image-lightbox .image-lightbox-wrapper .close {
+  width: 1.5em;
+  height: 1.5em;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 2px white inset, 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 2px white inset, 0 0 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: -1em;
+  top: -1em;
+}
+
+.gallery-lightboxes .image-lightbox .image-lightbox-wrapper .close:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -1px 0 0 -5px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.gallery-lightboxes .image-lightbox .image-lightbox-wrapper .close:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -1px 0 0 -5px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.gallery-lightboxes .image-lightbox .image-lightbox-wrapper .arrow-left {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  bottom: 0;
+  left: 0;
+}
+
+.gallery-lightboxes .image-lightbox .image-lightbox-wrapper .arrow-left:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-bottom: 0;
+  border-right: 0;
+  border-radius: 4px 0 0 0;
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  cursor: pointer;
+  -webkit-transform: rotate(-45deg) translateY(-50%);
+  transform: rotate(-45deg) translateY(-50%);
+}
+
+.gallery-lightboxes .image-lightbox .image-lightbox-wrapper .arrow-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+.gallery-lightboxes
+  .image-lightbox
+  .image-lightbox-wrapper
+  .arrow-right:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-bottom: 0;
+  border-left: 0;
+  border-radius: 0 4px 0 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  cursor: pointer;
+  -webkit-transform: rotate(45deg) translateY(-50%);
+  transform: rotate(45deg) translateY(-50%);
+}
+
+.gallery-lightboxes .image-lightbox .image-lightbox-wrapper img {
+  margin: 0 auto;
+  max-height: 70vh;
+}
+
+.image-title {
+  font-family: "Nunito Semi Bold", Arial, sans-serif;
+  color: #2c2c2c;
+}
+/*# sourceMappingURL=style.css.map */
