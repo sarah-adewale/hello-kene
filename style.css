@@ -285,6 +285,9 @@ a.active {
   top: 909px;
 }
 
+.liberterra-mobile-logo{
+  display: none;
+
 .liberterra-text {
   position: absolute;
   width: 340px;
