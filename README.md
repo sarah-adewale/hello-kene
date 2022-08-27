@@ -1,1 +1,19 @@
-# hello-kene
+# hello-kene: A designer's portfolio
+# Project Description
+A Professional portfolio built for a product designer. This website showcases his portfolio of work and contact information. 
+
+Link to project: https://hellokene.netlify.app/
+
+![Screen Shot 2022-08-27 at 12 55 31 AM](https://user-images.githubusercontent.com/49436342/187005221-332ebc20-fe48-4464-be18-cfbceda4c818.png)
+
+
+# How it was made: 
+**Tech Used:** FIGMA, HTML, CSS, JAVASCRIPT
+
+This is a simple static website that was initially designed using FIGMA. I made the decision not to use any framework because i wanted the file to be as lightweight as possible. I also wanted to challenge myself on coding from scratch using Vanilla Javascript. 
+
+# Optmizations
+This website was initially designed using png icon images but was optimized to use font awesome. 
+
+# Lessons Learned
+responsiveness is something i learned while buidling this website. I made sure to make it responsive on most screen sizes. My next iteration of this design would be better file architecture that would respect the Separation of concerns (SoC) principle. 
