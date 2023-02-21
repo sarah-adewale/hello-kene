@@ -10,7 +10,7 @@ Link to project: https://hellokene.netlify.app/
 # How it was made: 
 **Tech Used:** FIGMA, HTML, CSS, JAVASCRIPT
 
-This is a simple static website that was initially designed using FIGMA. I made the decision not to use any framework because i wanted the file to be as lightweight as possible. I also wanted to challenge myself on coding from scratch using Vanilla Javascript. 
+This is a simple static website that was designed using FIGMA and built using Javascript, Html and Css. I made the decision not to use any framework because i wanted the file to be as lightweight as possible. I also wanted the challenge of coding from scratch using Vanilla Javascript. 
 
 # Optmizations
 This website was initially designed using png icon images but was optimized to use font awesome. 
