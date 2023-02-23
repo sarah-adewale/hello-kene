@@ -13,7 +13,7 @@ Link to project: https://hellokene.netlify.app/
 This is a simple static website that was designed using FIGMA and built using Javascript, Html and Css. I made the decision not to use any framework because i wanted the file to be as lightweight as possible. I also wanted the challenge of coding from scratch using Vanilla Javascript. 
 
 # Optmizations
-This website was initially designed using png icon images but was optimized to use font awesome. 
+What's a better way to optimize than doing a redesign. Check it out here => https://github.com/sarah-adewale/hellokene2.0
 
 # Lessons Learned
 responsiveness is something i learned while buidling this website. I made sure to make it responsive on most screen sizes. My next iteration of this design would be better file architecture that would respect the Separation of concerns (SoC) principle. 
